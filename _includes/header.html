@@ -1,18 +1,12 @@
-<header>
+<header class="top">
     <h1>
         <a href="">DigiWearable</a>
     </h1>
-    <nav class="navigation">
-        <ul class="nav-links">
-            <li><a href="">Moto360</a>
-            </li>
-            <li><a href="">Google Glass</a>
-            </li>
-            <li><a href="">Microsoft Band</a>
-            </li>
-            <li><a href="">Apple Watch</a>
-            </li>
-        </ul>
+
+    <nav class="main-nav">
+        {% for item in site.data.settings.header %}
+            <a href="{{ item.url }}">{{ item.name }}</a>
+        {% endfor %}
     </nav>
+
 </header>
- 

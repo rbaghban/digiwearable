@@ -1,0 +1,26 @@
+#-------------
+# Main Navigation setting 
+
+header:
+- {name: Products, 	url: ''}
+- {name: Blog, 		url: ''}
+- {name: About Us, 	url: ''}
+- {name: Purchase, 	url: ''}
+
+#-------------
+# Product  setting 
+
+products:
+- {name: Moto360, 			url: ''}
+- {name: Apple Watch,		url: ''}
+- {name: Microsoft Band, 	url: ''}
+- {name: Google Glass, 		url: ''}
+
+
+#-------------
+# menu setting 
+
+moto_nav:
+- {name: طراحی, url: '#design'}
+- {name: کیفیت, url: '#quality'}
+- {name: سلامت, url: '#health'}
