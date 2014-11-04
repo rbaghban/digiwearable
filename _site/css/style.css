@@ -359,7 +359,9 @@ th {
 .top {
   background: #ccc;
   width: 100%;
-  height: 72px; }
+  height: 72px;
+  font-family: "Open Sans", sans-serif;
+  display: block; }
   .top:after {
     content: "";
     display: table;
@@ -368,17 +370,57 @@ th {
     float: left;
     text-decoration: none;
     color: black;
-    margin-left: 30px; }
+    margin: 0;
+    line-height: 72px;
+    position: relative;
+    padding-left: 45px; }
     .top h1 a {
       text-decoration: none;
       color: black; }
   .top .main-nav {
     float: right;
-    margin-right: 2em;
-    margin-top: 30px; }
+    padding-right: 45px;
+    margin: 0;
+    line-height: 72px;
+    vertical-align: middle; }
     .top .main-nav a {
       text-decoration: none;
-      padding-right: 10px;
-      font-family: "Open Sans", Sans-serif; }
+      padding-right: 15px;
+      font-family: "Open Sans", Sans-serif;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: black; }
+    .top .main-nav a:hover {
+      color: blue; }
+
+#section1 {
+  background: url("http://localhost:4000/assets/img/desktop_bg_intro.jpg");
+  display: block;
+  z-index: 10; }
+  #section1 .section_container {
+    max-width: 1200px;
+    height: 100%;
+    position: relative;
+    margin: auto; }
+    #section1 .section_container .section_main_content .headline {
+      font-family: IRAN;
+      font-size: 50px;
+      font-weight: bold;
+      color: #ebebeb;
+      text-align: center;
+      padding-top: 10px;
+      padding-bottom: 10px; }
+    #section1 .section_container .section_main_content .moto_logo {
+      background: url("http://localhost:4000/assets/img/logo_big.png");
+      text-align: center; }
+    #section1 .section_container .main_watch {
+      background: url("http://localhost:4000/assets/img/main_watch.png");
+      width: 100%;
+      height: 57%;
+      position: absolute;
+      bottom: 0;
+      background-size: contain;
+      background-position: bottom;
+      background-repeat: no-repeat; }
 
 /*# sourceMappingURL=style.css.map */

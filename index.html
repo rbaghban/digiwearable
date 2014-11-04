@@ -9,18 +9,30 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>DigiWearable | جدیدترین ابزار های پوشیدنی </title>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css\style.css">
+	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 </head>
 <body>
 
 	{% include header.html %}
-
-<div class="section"></div>
-<div class="section"></div>
-<div class="section"></div>
-<div class="section"></div>
+	
+	{% include intro.html %}
+	
 
 	{% include footer.html %}
-	
+
+
+
+	<script type="text/javascript">
+		var sectionHeight = $(window).height();
+
+		$(document).ready(function(){
+			$(".section").css("height",sectionHeight - 72);
+		});
+
+
+
+	</script>
 </body>
 </html>
