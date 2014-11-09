@@ -504,7 +504,7 @@ body {
     #section1 .section_content_mobile {
       display: none; }
     #section1 .section_content_desktop {
-      width: 50%;
+      width: 65%;
       padding-top: 4rem; }
       #section1 .section_content_desktop .moto360_logo_black {
         margin: 0 auto;
@@ -515,7 +515,7 @@ body {
           width: 100%; }
       #section1 .section_content_desktop h1 {
         color: #2c2c2c;
-        font-size: 50px;
+        font-size: 3.125rem;
         padding: 40px 0; }
       #section1 .section_content_desktop #buy_me {
         padding: 0; }
