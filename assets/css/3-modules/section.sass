@@ -1,0 +1,352 @@
+
+.section
+	display: block
+
+
+.quote_container
+	font-family: 'IRAN'
+	direction: rtl
+	text-align: center
+
+	h1
+		color: #2c2c2c
+		margin: 0
+		padding-top: 55px
+		padding-bottom: 15px
+		font-size: 24px
+	p
+		width: 85%
+		text-align: center
+		margin: auto
+		line-height: 28px
+		font-size: 18px
+		color: #2c2c2c
+
+
+#section1
+	background: url('../img/BG/hearo_BG.jpg')
+	z-index: 99
+
+	h1
+		font-family: 'IRAN'
+		margin: 0
+		text-align: center
+		color: #ebebeb
+		padding-top: 1em
+
+		font-size: 40px
+		letter-spacing: -1px
+		direction: rtl
+
+	.moto360_logo
+		background: url('../img/moto360_logo_2x.png')
+		margin-top: 1.6em
+		margin-bottom: 1em
+		height: 40px
+		background-position: center
+		background-repeat: no-repeat
+		background-size: contain
+
+	#buy_me
+		text-align: center
+		padding-top: 20px
+
+		a
+			text-decoration: none
+			text-shadow: rgba(31, 40, 43, 0.498039) 0px -1px 3px
+			line-height: 45px
+			color: rgb(255, 255, 255)
+			padding: 7px 20px
+			font-family: 'IRAN'
+			background-color: rgb(93, 142, 253)
+			border-radius: 5px
+			font-size: 16px
+
+	#moto360_head
+		background: url("../img/head.png")
+		z-index: 20
+		position: absolute
+		bottom: 0
+		height: 200px
+		width: 100%
+		background-repeat: no-repeat
+		background-size: contain
+		background-position: bottom
+
+		
+
+#section2
+	background: url('../img/BG/mobile_BG1.jpg')
+	z-index: 99
+
+	.watch_body
+		background: url('../img/watch_feature.png')
+		background-size: contain
+		background-repeat: no-repeat
+		background-position: bottom
+		position: absolute
+		bottom: 0
+		margin-bottom: 30px
+		height: 300px
+		width: 100%
+
+		h1,
+		p
+			color: #2c2c2c
+			text-shadow: rgb(236, 236, 236) 1px 1px 10px
+
+#section3
+	background: url('../img/BG/mobile_BG2.jpg')
+	h1,
+	p
+		color: rgb(235,235,235)
+		text-shadow: rgb(0, 0, 0) 1px 1px 3px
+
+
+	.watch_body
+		background: url('../img/watch_feature_mobile2.png')
+		background-size: contain
+		background-repeat: no-repeat
+		background-position: bottom
+		position: absolute
+		bottom: 0
+		margin-bottom: 30px
+		height: 300px
+		width: 100%
+
+#section4
+	background: url('../img/BG/mobile_BG4_sq.jpg')
+
+	h1,
+	p
+		color: #2c2c2c
+		text-shadow: rgb(236, 236, 236) 1px 1px 10px
+
+#section5
+	background: url('../img/BG/mobile_BG5_sq.jpg')
+
+	h1,
+	p
+		color: #2c2c2c
+		em
+			font-style: normal
+			color: #3c3c3c
+
+#section6
+	background: url('../img/BG/mobile_BG6_sq.jpg')
+	h1,
+	p
+		color: rgb(235,235,235)
+		text-shadow: rgb(0, 0, 0) 1px 1px 3px
+		
+
+#section7
+	background-position: center
+	background-repeat: no-repeat
+	background-size: cover
+	position: relative
+	width: 100%
+	height: 600px
+	background-color: #fff
+
+	.android_wear_logo
+		text-align: center
+		width: 100%
+		height: 35px
+		margin-top: 30px
+		background: url('../img/android_wear_black.png')
+		background-size: contain
+		background-repeat: no-repeat
+		background-position: top
+		position: absolute
+		top: 0
+
+	h1
+		padding-top: 90px
+	h1,
+	p
+		color: #2c2c2c
+		text-shadow: rgb(236, 236, 236) 1px 1px 10px
+
+	.android_pic
+		background: url('../img/android_pic.jpg')
+		height: 300px
+		width: 100%
+		background-size: contain
+		background-repeat: no-repeat
+		position: absolute
+		bottom: 0
+		background-position: bottom
+
+#section8
+	background: url('../img/BG/BG8.jpg')
+	z-index: 99
+	height: 800px
+	h1,
+	p
+		color: rgb(235,235,235)
+		text-shadow: rgb(0, 0, 0) 1px 1px 3px
+
+	.watch_wrapper
+		width: 100%
+		height: 400px
+
+		.watch
+			background: url('../img/watch_mobile_gray1.png')
+			position: absolute
+			bottom: 0
+			height: 300px
+			width: 100%
+			background-repeat: no-repeat
+			background-size: contain
+			background-position: bottom
+			z-index: 3000
+		.watch_face
+			background: url('../img/watchface500X500.gif')
+			position: absolute
+			bottom: 0
+			z-index: 5000
+			height: 300px
+			width: 100%
+			background-repeat: no-repeat
+			background-size: contain
+			background-position: bottom
+
+
+#section1,
+#section2,
+#section3, 
+#section4,
+#section5,
+#section6,
+#section8,
+#section9
+	background-position: center
+	background-repeat: no-repeat
+	background-size: cover
+	height: 600px
+	position: relative
+	width: 100%
+
+
+
+
+$smartphone: "(max-width: 440px)"
+$tablet: "(min-width: 441px) and (max-width: 750px)"
+$desktop: "(min-width: 751px)"
+
+
+@media only screen and #{$smartphone}
+	.quote_container
+		h1
+			font-size: 22px
+			width: 95%
+		p
+			width: 85%
+			font-size: 16px
+	#section1
+		.section_content_desktop
+			display: none
+@media only screen and #{$tablet}
+	#section1
+		#moto360_head
+			height: 45%
+		.section_content_desktop
+			display: none
+
+// --------------------------------------  For Desktop
+@media only screen and #{$desktop}
+
+
+	.quote_container
+		width: 260px
+		direction: rtl
+		position: absolute
+		top: 20%
+		right: 100px
+
+		h1
+			color: #2c2c2c
+			margin: 0
+			padding-bottom: 10px
+			font-size: 22px
+			text-align: right
+			padding-top: 0
+		p
+			text-align: right
+			width: 100%
+			margin: auto
+			line-height: 28px
+			font-size: 16px
+			color: #2c2c2c
+
+	#section1
+		background: url('../img/BG/section1_desktop.jpg')
+		background-position: center
+		background-repeat: no-repeat
+		background-size: cover
+		height: 600px
+		position: relative
+		width: 100%
+		.section_content_mobile
+			display: none
+		.section_content_desktop
+			width: 50%	
+			padding-top: 4rem
+			.moto360_logo_black
+				margin: 0 auto
+				padding-top: 3em
+				height: 30px
+				width: 200px
+				
+				img
+					width: 100%
+			h1
+				color: #2c2c2c
+				font-size: 50px
+				padding: 40px 0
+
+			#buy_me
+				padding: 0
+
+		.aw_logo
+			width: 150px
+			position: absolute
+			left: 0
+			bottom: 0
+			padding: 0 0 15px 15px
+			cursor: pointer
+
+
+			img
+				width: 100%
+				
+
+	#section2
+		background: url('../img/BG/bg2.jpg')
+
+
+		.watch_body
+			display: none
+
+
+	#section1,
+	#section2,
+	#section3, 
+	#section4,
+	#section5,
+	#section6,
+	#section8,
+	#section9
+		background-position: center
+		background-repeat: no-repeat
+		background-size: cover
+		height: 600px
+		position: relative
+		width: 100%
+
+
+		
+
+	
+

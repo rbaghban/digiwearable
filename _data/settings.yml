@@ -1,26 +1,12 @@
-#-------------
-# Main Navigation setting 
+#--------
+# main_nav Items
 
-header:
-- {name: Products, 	url: ''}
-- {name: Blog, 		url: ''}
-- {name: About Us, 	url: ''}
-- {name: Purchase, 	url: ''}
+main_nav:
+- {name: محصولات, url: ''}
+- {name: تماس با ما, url: ''}
+- {name: سایر محصولات, url: ''}
 
-#-------------
-# Product  setting 
-
-products:
-- {name: Moto360, 			url: ''}
-- {name: Apple Watch,		url: ''}
-- {name: Microsoft Band, 	url: ''}
-- {name: Google Glass, 		url: ''}
-
-
-#-------------
-# menu setting 
-
-moto_nav:
-- {name: طراحی, url: '#design'}
-- {name: کیفیت, url: '#quality'}
-- {name: سلامت, url: '#health'}
+purchase_menu_nav:
+- {name: مشخصات فنی, url: '#'}
+- {name: وبلاگ, url: '#'}
+- {name: گارانتی, url: '#'}

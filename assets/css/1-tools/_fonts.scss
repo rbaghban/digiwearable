@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(//themes.googleusercontent.com/static/fonts/opensans/v8/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'IRAN';
+  src: url('../fonts/IRAN.eot?#') format('eot'),  /* IE6–IE8 */
+	url('../fonts/IRAN.woff') format('woff'),  /* Modern Browsers */
+	url('../fonts/IRAN.svg') format('svg'),		/* Legacy iOS */
+	url('../fonts/IRAN.ttf')  format('truetype'), /* Safari, Android, iOS */
+}

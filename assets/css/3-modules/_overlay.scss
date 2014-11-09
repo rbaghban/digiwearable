@@ -1,0 +1,33 @@
+#overlay {
+  opacity: 0;
+  transition: .5s;
+  overflow: hidden;
+  background: rgba(26,53,71,.9);
+  pointer-events: none;
+  z-index: 1111111;
+
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+    
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#overlay.open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+
+#overlay .close {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 10px;
+  top: 10px;
+  text-indent: -9000px;
+  background-image: url('../img/close_button.png');
+  z-index: 1000;
+}
