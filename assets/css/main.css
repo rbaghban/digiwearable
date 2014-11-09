@@ -582,6 +582,12 @@ body {
     background: url("../img/BG/desktop_bg3.jpg"); }
     #section4 .watch_body {
       display: none; }
+    #section4 .watch_holder .moto360_side {
+      background: url("../img/moto360_front_flight.png");
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 80%; }
 
   #section5 {
     background: url("../img/BG/desktop_bg4.jpg"); }
