@@ -292,6 +292,7 @@ body {
     text-align: center;
     color: #ebebeb;
     padding-top: 1em;
+    display: relative;
     font-size: 40px;
     letter-spacing: -1px;
     direction: rtl; }
@@ -519,7 +520,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
-    position: relative;
     width: 100%; }
     #section1 .section_content_mobile {
       display: none; }
