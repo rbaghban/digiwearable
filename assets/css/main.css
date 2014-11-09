@@ -469,6 +469,9 @@ body {
   width: 100%; }
 
 @media only screen and (max-width: 440px) {
+  #sub_header {
+    display: none; }
+
   .quote_container h1 {
     font-size: 22px;
     width: 95%; }
@@ -479,6 +482,9 @@ body {
   #section1 .section_content_desktop {
     display: none; } }
 @media only screen and (min-width: 441px) and (max-width: 750px) {
+  #sub_header {
+    display: none; }
+
   #section1 #moto360_head {
     height: 45%; }
   #section1 .section_content_desktop {
