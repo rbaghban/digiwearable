@@ -559,6 +559,21 @@ body {
     #section3 .watch_body {
       display: none; }
 
+  #section4 {
+    background: url("../img/BG/desktop_bg3.jpg"); }
+    #section4 .watch_body {
+      display: none; }
+
+  #section5 {
+    background: url("../img/BG/desktop_bg4.jpg"); }
+    #section5 .watch_body {
+      display: none; }
+
+  #section5 {
+    background: url("../img/BG/desktop_bg6.jpg"); }
+    #section5 .watch_body {
+      display: none; }
+
   #section1,
   #section2,
   #section3,
