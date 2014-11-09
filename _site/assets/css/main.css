@@ -250,6 +250,12 @@ body {
       line-height: 72px;
       float: left;
       padding-left: 40px; } }
+#sub_header {
+  height: 72px;
+  width: 100%;
+  background-color: #282828;
+  display: block; }
+
 .section {
   display: block; }
 
