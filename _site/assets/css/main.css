@@ -518,10 +518,10 @@ body {
     position: relative; }
 
   .watch_holder {
-    height: 600px;
-    padding-top: 50px; }
+    height: 500px;
+    padding-top: 100px; }
     .watch_holder .moto360_side {
-      height: 85%;
+      height: 80%;
       background-size: contain;
       background-position: center;
       background-repeat: no-repeat; }
@@ -564,12 +564,14 @@ body {
   #section2 {
     background: url("../img/BG/desktop_bg1.jpg"); }
     #section2 .watch_body {
-      display: none; }
+      display: none;
+      padding-top: 150px; }
     #section2 .watch_holder .moto360_side {
-      background: url("../img/body.png");
+      background: url("../img/watch_feature.png");
       background-size: contain;
       background-position: center;
-      background-repeat: no-repeat; }
+      background-repeat: no-repeat;
+      height: 65%; }
 
   #section3 {
     background: url("../img/BG/bg3.jpg"); }
