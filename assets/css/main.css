@@ -484,7 +484,7 @@ body {
   position: relative;
   width: 100%; }
 
-@media only screen and (min-width: 441px) and (max-width: 750px) {
+@media only screen and (min-width: 441px) and (max-width: 960px) {
   #sub_header {
     display: none; }
 
@@ -492,7 +492,7 @@ body {
     height: 45%; }
   #section1 .section_content_desktop {
     display: none; } }
-@media only screen and (min-width: 751px) {
+@media only screen and (min-width: 961px) {
   .quote_container {
     width: 260px;
     direction: rtl;
@@ -510,9 +510,21 @@ body {
       text-align: right;
       width: 100%;
       margin: auto;
-      line-height: 28px;
-      font-size: 16px;
+      line-height: 24px;
+      font-size: 14px;
       color: #2c2c2c; }
+
+  .watch_holder {
+    position: relative; }
+
+  .watch_holder {
+    height: 600px;
+    padding-top: 50px; }
+    .watch_holder .moto360_side {
+      height: 85%;
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat; }
 
   #section1 {
     background: url("../img/BG/section1_desktop.jpg");
@@ -553,6 +565,11 @@ body {
     background: url("../img/BG/desktop_bg1.jpg"); }
     #section2 .watch_body {
       display: none; }
+    #section2 .watch_holder .moto360_side {
+      background: url("../img/body.png");
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat; }
 
   #section3 {
     background: url("../img/BG/bg3.jpg"); }
@@ -588,6 +605,22 @@ body {
     height: 600px;
     position: relative;
     width: 100%; } }
+@media only screen and (max-width: 1050px) {
+  .quote_container {
+    right: 80px; }
+
+  #section2 .watch_holder {
+    max-width: 100%; }
+    #section2 .watch_holder .moto360_side {
+      height: 75%; } }
+@media only screen and (max-width: 1050px) {
+  .quote_container {
+    right: 65px; }
+
+  #section2 .watch_holder {
+    max-width: 100%; }
+    #section2 .watch_holder .moto360_side {
+      height: 75%; } }
 #overlay {
   opacity: 0;
   transition: .5s;
