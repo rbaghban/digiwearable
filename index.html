@@ -59,6 +59,24 @@
     }
     </style>
 
+    <script>
+        var sh = $("#sub_header");
+            shs = "sub_header_scrolled"
+            fpw = $("#section1").height() + 72;
+
+
+        $(window).scroll(function(){
+           if( $(this).scrollTop() > fpw ){
+                sh.addClass(shs);
+           }
+            else {
+                sh.removeClass(shs);
+            }
+
+
+        });
+    </script>
+
     <code>
         clicking on "#buy_me" adds class "open" on "#overlay"
         clicking on "#buy_me" adds class "noscroll" on "html"

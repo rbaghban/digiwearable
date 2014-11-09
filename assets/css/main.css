@@ -254,7 +254,13 @@ body {
   height: 72px;
   width: 100%;
   background-color: #282828;
-  display: block; }
+  display: relative;
+  z-index: 100000; }
+
+.sub_header_scrolled {
+  position: fixed;
+  width: 100%;
+  top: 0; }
 
 .section {
   display: block; }
