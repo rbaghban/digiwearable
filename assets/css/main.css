@@ -519,6 +519,10 @@ body {
       background-position: bottom;
       margin-bottom: 30px; }
 
+#section9 {
+  height: 700px;
+  background: url("../img/marble.jpg"); }
+
 #section1,
 #section2,
 #section3,
@@ -715,6 +719,10 @@ body {
       height: 66%;
       top: 100px;
       left: 0; }
+
+  #section9 {
+    height: 700px;
+    background: url("../img/BG/marble.jpg"); }
 
   #section1,
   #section2,
