@@ -457,21 +457,33 @@ body {
     #section7 .android_wear_logo img {
       width: 100%;
       height: auto; }
-  #section7 .mobile_section7 h1 {
-    padding-top: 50px; }
-  #section7 .mobile_section7 h1,
-  #section7 .mobile_section7 p {
-    color: #2c2c2c;
-    text-shadow: #ececec 1px 1px 10px; }
-  #section7 .mobile_section7 .android_pic {
-    background: url("../img/android_pic.jpg");
+  #section7 .quote_container_mobile {
+    font-family: "IRAN";
+    direction: rtl;
+    text-align: center; }
+    #section7 .quote_container_mobile h1 {
+      color: #2c2c2c;
+      margin: 0;
+      padding-top: 50px;
+      padding-bottom: 15px;
+      font-size: 24px; }
+    #section7 .quote_container_mobile p {
+      width: 85%;
+      text-align: center;
+      margin: auto;
+      line-height: 28px;
+      font-size: 18px;
+      color: #2c2c2c; }
+    #section7 .quote_container_mobile h1,
+    #section7 .quote_container_mobile p {
+      text-shadow: #ececec 1px 1px 10px; }
+  #section7 .android_pic {
+    padding-top: 30px;
     height: 300px;
-    width: 100%;
+    background: url("../img/android_pic.jpg");
     background-size: contain;
-    background-repeat: no-repeat;
-    position: absolute;
-    bottom: 0;
-    background-position: bottom; }
+    background-position: center;
+    background-repeat: no-repeat; }
 
 #section8 {
   background: url("../img/BG/BG8.jpg");
@@ -684,34 +696,6 @@ body {
       background-position: center;
       background-repeat: no-repeat;
       height: 80%; }
-
-  #section7 .quote_container_mobile {
-    font-family: "IRAN";
-    direction: rtl;
-    text-align: center; }
-    #section7 .quote_container_mobile h1 {
-      color: #2c2c2c;
-      margin: 0;
-      padding-top: 50px;
-      padding-bottom: 15px;
-      font-size: 24px; }
-    #section7 .quote_container_mobile p {
-      width: 85%;
-      text-align: center;
-      margin: auto;
-      line-height: 28px;
-      font-size: 18px;
-      color: #2c2c2c; }
-    #section7 .quote_container_mobile h1,
-    #section7 .quote_container_mobile p {
-      text-shadow: #ececec 1px 1px 10px; }
-  #section7 .android_pic {
-    padding-top: 30px;
-    height: 300px;
-    background: url("../img/android_pic.jpg");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat; }
 
   #section8 .watch_wrapper {
     display: none; }
