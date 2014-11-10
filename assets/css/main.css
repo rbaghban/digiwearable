@@ -736,10 +736,8 @@ body {
       #section9 .section_text_area .spec_list ul {
         padding: 5px 0;
         margin: 0; }
-      #section9 .section_text_area .spec_list ul {
-        line-height: 27px; }
-        #section9 .section_text_area .spec_list ul img {
-          padding-left: 5px; }
+      #section9 .section_text_area .spec_list ul img {
+        padding-left: 5px; }
     #section9 .watch_holder .moto360_side {
       background: url("../img/watchInCradle.png");
       background-size: contain;
