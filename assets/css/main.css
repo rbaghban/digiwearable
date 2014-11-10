@@ -294,6 +294,7 @@ body {
       #sub_header .sub_header_container .right_header #header_button {
         left: 0; }
         #sub_header .sub_header_container .right_header #header_button .preorder_button {
+          cursor: pointer;
           margin-top: 16px;
           -webkit-font-smoothing: antialiased;
           background-color: #5d8efd;
@@ -642,7 +643,13 @@ body {
       height: 80%; }
 
   #section6 {
+    color: #ebebeb;
+    text-shadow: black 1px 1px 3px;
     background: url("../img/BG/desktop_bg6.jpg"); }
+    #section6 .quote_container h1,
+    #section6 .quote_container p {
+      color: #2c2c2c;
+      text-shadow: #ececec 1px 1px 10px; }
     #section6 .watch_body {
       display: none; }
     #section6 .watch_holder .moto360_side {
