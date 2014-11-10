@@ -544,15 +544,15 @@ body {
       color: #2c2c2c;
       margin: 0;
       padding-bottom: 10px;
-      font-size: 22px;
+      font-size: 24px;
       text-align: right;
       padding-top: 0; }
     .quote_container p {
       text-align: right;
       width: 100%;
       margin: auto;
-      line-height: 24px;
-      font-size: 14px;
+      line-height: 1.618em;
+      font-size: 18px;
       color: #2c2c2c; }
 
   .watch_holder {
@@ -610,7 +610,12 @@ body {
         width: 100%; }
 
   #section2 {
-    background: url("../img/BG/desktop_bg1.jpg"); }
+    background: url("../img/BG/section2_desktop.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 100%; }
     #section2 .watch_body {
       display: none;
       padding-top: 150px; }
@@ -622,12 +627,22 @@ body {
       height: 80%; }
 
   #section3 {
-    background: url("../img/BG/bg3.jpg"); }
+    background: url("../img/BG/section3_desktop.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 100%; }
     #section3 .watch_body {
       display: none; }
 
   #section4 {
-    background: url("../img/BG/desktop_bg3.jpg"); }
+    background: url("../img/BG/section4_desktop.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 100%; }
     #section4 .watch_body {
       display: none; }
     #section4 .watch_holder .moto360_side {
@@ -638,7 +653,12 @@ body {
       height: 80%; }
 
   #section5 {
-    background: url("../img/BG/desktop_bg4.jpg"); }
+    background: url("../img/BG/section5_desktop.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 100%; }
     #section5 .watch_body {
       display: none; }
     #section5 .watch_holder .moto360_side {
@@ -651,7 +671,7 @@ body {
   #section6 {
     color: #ebebeb;
     text-shadow: black 1px 1px 3px;
-    background: url("../img/BG/desktop_bg6.jpg"); }
+    background: url("../img/BG/section6_desktop.jpg"); }
     #section6 .quote_container h1,
     #section6 .quote_container p {
       color: #2c2c2c;
