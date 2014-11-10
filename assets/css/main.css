@@ -717,21 +717,29 @@ body {
 
   #section9 {
     position: relative;
+    direction: rtl;
+    color: #ebebeb;
+    font-family: "IRAN";
     background: url("../img/BG/section9_desktop.jpg"); }
     #section9 .section_text_area {
       position: absolute;
       top: 60px;
       right: 90px;
-      direction: rtl;
-      width: 260px;
+      width: 300px;
       height: 400px;
-      font-family: "IRAN";
-      font-size: 16px;
-      color: #ebebeb; }
+      font-size: 18px; }
       #section9 .section_text_area h2 {
-        font-family: "IRAN";
-        font-size: 28px;
-        font-weight: 600px; }
+        font-size: 24px;
+        color: #ebebeb;
+        margin: 0; }
+      #section9 .section_text_area .spec_list ol,
+      #section9 .section_text_area .spec_list ul {
+        padding: 5px 0;
+        margin: 0; }
+      #section9 .section_text_area .spec_list ul {
+        line-height: 27px; }
+        #section9 .section_text_area .spec_list ul img {
+          padding-left: 5px; }
     #section9 .watch_holder .moto360_side {
       background: url("../img/watchInCradle.png");
       background-size: contain;
