@@ -443,26 +443,19 @@ body {
     text-shadow: black 1px 1px 3px; }
 
 #section7 {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   position: relative;
   width: 100%;
   height: 600px;
   background-color: #fff; }
   #section7 .android_wear_logo {
-    text-align: center;
-    width: 100%;
-    height: 35px;
-    margin-top: 30px;
-    background: url("../img/android_wear_black.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: top;
-    position: absolute;
-    top: 0; }
+    width: 300px;
+    margin: auto;
+    padding-top: 50px; }
+    #section7 .android_wear_logo img {
+      width: 100%;
+      height: auto; }
   #section7 h1 {
-    padding-top: 90px; }
+    padding-top: 50px; }
   #section7 h1,
   #section7 p {
     color: #2c2c2c;
