@@ -287,6 +287,29 @@ body {
         margin-top: 25px; }
         #sub_header .sub_header_container .left_header .moto360_sub_header img {
           border: 0; }
+    #sub_header .sub_header_container .right_header {
+      position: absolute;
+      right: 25px;
+      width: 50%; }
+      #sub_header .sub_header_container .right_header #header_button {
+        left: 0; }
+        #sub_header .sub_header_container .right_header #header_button .preorder_button {
+          margin-top: 16px;
+          -webkit-font-smoothing: antialiased;
+          background-color: #5d8efd;
+          border-radius: 5px;
+          box-sizing: border-box;
+          color: white;
+          display: block;
+          font-family: "IRAN";
+          font-size: 16px;
+          height: 40px;
+          letter-spacing: normal;
+          line-height: 40px;
+          text-align: center;
+          text-shadow: rgba(31, 40, 43, 0.49804) 0px -1px 3px;
+          visibility: visible;
+          width: 112px; }
 
 .sub_header_scrolled {
   position: fixed;
