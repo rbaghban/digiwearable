@@ -592,6 +592,12 @@ body {
         padding: 40px 0; }
       #section1 .section_content_desktop #buy_me {
         padding: 0; }
+      #section1 .section_content_desktop .epaarseh_logo {
+        margin: 0 auto;
+        text-align: center; }
+        #section1 .section_content_desktop .epaarseh_logo a img {
+          height: 150px;
+          width: 150px; }
     #section1 .aw_logo {
       width: 150px;
       position: absolute;
