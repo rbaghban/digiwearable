@@ -285,9 +285,9 @@ body {
       position: absolute;
       left: 25px; }
       #sub_header .sub_header_container .left_header .moto360_sub_header {
-        height: 21px;
-        width: 171px;
-        margin-top: 25px; }
+        height: 50px;
+        width: auto;
+        margin-top: 12px; }
         #sub_header .sub_header_container .left_header .moto360_sub_header img {
           border: 0; }
     #sub_header .sub_header_container .right_header {
