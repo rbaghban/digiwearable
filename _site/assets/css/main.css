@@ -487,8 +487,7 @@ body {
 
 #section8 {
   background: url("../img/BG/BG8.jpg");
-  z-index: 99;
-  height: 800px; }
+  z-index: 99; }
   #section8 h1,
   #section8 p {
     color: #ebebeb;
@@ -518,10 +517,6 @@ body {
       background-size: contain;
       background-position: bottom;
       margin-bottom: 30px; }
-
-#section9 {
-  height: 700px;
-  background: url("../img/marble.jpg"); }
 
 #section1,
 #section2,
@@ -721,8 +716,28 @@ body {
       left: 0; }
 
   #section9 {
-    height: 700px;
-    background: url("../img/BG/marble.jpg"); }
+    position: relative;
+    background: url("../img/BG/section9_desktop.jpg"); }
+    #section9 .section_text_area {
+      position: absolute;
+      top: 60px;
+      right: 90px;
+      direction: rtl;
+      width: 260px;
+      height: 400px;
+      font-family: "IRAN";
+      font-size: 16px;
+      color: #ebebeb; }
+      #section9 .section_text_area h2 {
+        font-family: "IRAN";
+        font-size: 28px;
+        font-weight: 600px; }
+    #section9 .watch_holder .moto360_side {
+      background: url("../img/watchInCradle.png");
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 80%; }
 
   #section1,
   #section2,
