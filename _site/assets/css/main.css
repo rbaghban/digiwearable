@@ -230,6 +230,9 @@ body {
   -webkit-text-size-adjust: 100%; }
 
 @media only screen and (max-width: 440px) {
+  .section_content_desktop {
+    display: none; }
+
   #sub_header {
     display: none; }
 
@@ -240,7 +243,7 @@ body {
     width: 85%;
     font-size: 16px; }
 
-  #section1 .section_content_desktop {
+  #section7 .desktop_section7 {
     display: none; } }
 #main_header {
   height: 3.4375rem;
@@ -454,13 +457,13 @@ body {
     #section7 .android_wear_logo img {
       width: 100%;
       height: auto; }
-  #section7 h1 {
+  #section7 .mobile_section7 h1 {
     padding-top: 50px; }
-  #section7 h1,
-  #section7 p {
+  #section7 .mobile_section7 h1,
+  #section7 .mobile_section7 p {
     color: #2c2c2c;
     text-shadow: #ececec 1px 1px 10px; }
-  #section7 .android_pic {
+  #section7 .mobile_section7 .android_pic {
     background: url("../img/android_pic.jpg");
     height: 300px;
     width: 100%;
@@ -520,6 +523,9 @@ body {
   width: 100%; }
 
 @media only screen and (min-width: 441px) and (max-width: 960px) {
+  .section_content_desktop {
+    display: none; }
+
   #sub_header {
     display: none; }
 
@@ -651,6 +657,31 @@ body {
       background-position: center;
       background-repeat: no-repeat;
       height: 80%; }
+
+  #section7 .quote_container_mobile {
+    font-family: "IRAN";
+    direction: rtl;
+    text-align: center; }
+    #section7 .quote_container_mobile h1 {
+      color: #2c2c2c;
+      margin: 0;
+      padding-top: 50px;
+      padding-bottom: 15px;
+      font-size: 24px; }
+    #section7 .quote_container_mobile p {
+      width: 85%;
+      text-align: center;
+      margin: auto;
+      line-height: 28px;
+      font-size: 18px;
+      color: #2c2c2c; }
+    #section7 .quote_container_mobile h1,
+    #section7 .quote_container_mobile p {
+      text-shadow: #ececec 1px 1px 10px; }
+  #section7 .quote_container {
+    float: right; }
+  #section7 .android_pic {
+    float: left; }
 
   #section1,
   #section2,

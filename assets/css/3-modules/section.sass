@@ -140,11 +140,11 @@
 		
 
 #section7
+	
 	position: relative
 	width: 100%
 	height: 600px
 	background-color: #fff
-
 	.android_wear_logo
 		width: 300px
 		margin: auto
@@ -153,22 +153,24 @@
 			width: 100%
 			height: auto
 
-	h1
-		padding-top: 50px
-	h1,
-	p
-		color: #2c2c2c
-		text-shadow: rgb(236, 236, 236) 1px 1px 10px
+	.mobile_section7
+		
+		h1
+			padding-top: 50px
+		h1,
+		p
+			color: #2c2c2c
+			text-shadow: rgb(236, 236, 236) 1px 1px 10px
 
-	.android_pic
-		background: url('../img/android_pic.jpg')
-		height: 300px
-		width: 100%
-		background-size: contain
-		background-repeat: no-repeat
-		position: absolute
-		bottom: 0
-		background-position: bottom
+		.android_pic
+			background: url('../img/android_pic.jpg')
+			height: 300px
+			width: 100%
+			background-size: contain
+			background-repeat: no-repeat
+			position: absolute
+			bottom: 0
+			background-position: bottom
 
 #section8
 	background: url('../img/BG/BG8.jpg')
@@ -223,7 +225,10 @@
 	width: 100%
 
 
+
 @media only screen and #{$tablet}
+	.section_content_desktop
+		display: none
 	#sub_header
 		display: none
 	#section1
@@ -381,7 +386,38 @@
 				background-repeat: no-repeat
 				height: 80%
 
-			
+	#section7
+		.quote_container_mobile
+			font-family: 'IRAN'
+			direction: rtl
+			text-align: center
+
+			h1
+				color: #2c2c2c
+				margin: 0
+				padding-top: 50px
+				padding-bottom: 15px
+				font-size: 24px
+			p
+				width: 85%
+				text-align: center
+				margin: auto
+				line-height: 28px
+				font-size: 18px
+				color: #2c2c2c
+				
+			h1,
+			p
+				text-shadow: rgb(236, 236, 236) 1px 1px 10px
+
+
+
+		.quote_container
+			float: right
+
+
+		.android_pic
+			float: left	
 
 	#section1,
 	#section2,
