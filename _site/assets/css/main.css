@@ -761,8 +761,11 @@ body {
         margin: 0; }
       #section9 .section_text_area .spec_list ol,
       #section9 .section_text_area .spec_list ul {
-        padding: 5px 0;
+        padding: 7px 0;
         margin: 0; }
+        #section9 .section_text_area .spec_list ol .extra_spaceing,
+        #section9 .section_text_area .spec_list ul .extra_spaceing {
+          padding-right: 20px; }
       #section9 .section_text_area .spec_list ul img {
         padding-left: 5px; }
     #section9 .watch_body {
