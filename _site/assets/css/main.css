@@ -716,11 +716,11 @@ body {
       left: 0; }
 
   #section9 {
+    background: url("../img/BG/section9_desktop.jpg");
     position: relative;
     direction: rtl;
     color: #ebebeb;
-    font-family: "IRAN";
-    background: url("../img/BG/section9_desktop.jpg"); }
+    font-family: "IRAN"; }
     #section9 .section_text_area {
       position: absolute;
       top: 60px;
