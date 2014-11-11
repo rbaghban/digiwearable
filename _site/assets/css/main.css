@@ -244,6 +244,9 @@ body {
     font-size: 16px; }
 
   #section7 .desktop_section7 {
+    display: none; }
+
+  #section9 .section_text_area {
     display: none; } }
 #main_header {
   height: 3.4375rem;
@@ -558,6 +561,9 @@ body {
   #section1 #moto360_head {
     height: 45%; }
   #section1 .section_content_desktop {
+    display: none; }
+
+  #section9 .section_text_area {
     display: none; } }
 @media only screen and (min-width: 961px) {
   .quote_container {
