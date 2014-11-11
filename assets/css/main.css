@@ -246,6 +246,8 @@ body {
   #section7 .desktop_section7 {
     display: none; }
 
+  #section9 .watch_body {
+    height: 250px; }
   #section9 .section_text_area {
     display: none; } }
 #main_header {
@@ -538,7 +540,7 @@ body {
     position: absolute;
     bottom: 0;
     margin-bottom: 30px;
-    height: 320px;
+    height: 280px;
     width: 100%; }
 
 #section1,
