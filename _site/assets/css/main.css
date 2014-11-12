@@ -295,7 +295,7 @@ body {
     #sub_header .sub_header_container .right_header {
       position: absolute;
       right: 25px;
-      width: 60%; }
+      width: 65%; }
       #sub_header .sub_header_container .right_header #header_button {
         left: 0;
         display: inline-block; }
@@ -326,6 +326,12 @@ body {
           line-height: 72px;
           color: #ebebeb; }
 
+@media only screen and (max-width: 1050px) {
+  #sub_header .sub_header_container .right_header .sub_header_links a {
+    padding-left: 10px;
+    font-size: 12px; }
+  #sub_header .sub_header_container .right_header {
+    width: 62%; } }
 .sub_header_scrolled {
   position: fixed;
   width: 100%;
