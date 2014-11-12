@@ -11,14 +11,28 @@ purchase_menu_nav:
 - {name: وبلاگ, url: '#'}
 - {name: گارانتی, url: '#'}
 
-sub_header_nav_links:
-- {name: Intro, url: '#section1'}
-- {name: Design, url: '#section2'}
-- {name: Quality, url: '#section3'}
-- {name: Update, url: '#section4'}
-- {name: Voice, url: '#section5'}
-- {name: Health, url: '#section6'}
-- {name: Wear, url: '#section7'}
-- {name: Explore, url: '#section8'}
-- {name: Specs, url: '#section9'}
+sub_header_nav_links_english:
 - {name: Film, url: '#section10'}
+- {name: Specs, url: '#section9'}
+- {name: Explore, url: '#section8'}
+- {name: Wear, url: '#section7'}
+- {name: Health, url: '#section6'}
+- {name: Voice, url: '#section5'}
+- {name: Update, url: '#section4'}
+- {name: Quality, url: '#section3'}
+- {name: Design, url: '#section2'}
+- {name: Intro, url: '#section1'}
+
+sub_header_nav_links:
+- {name: معرفی, url: '#section1'}
+- {name: طراحی, url: '#section2'}
+- {name: کیفیت, url: '#section3'}
+- {name: آپدیت, url: '#section4'}
+- {name: گوگل ناو, url: '#section5'}
+- {name: سلامت, url: '#section6'}
+- {name: سیستم عامل, url: '#section7'}
+- {name: کشف, url: '#section8'}
+- {name: مشخصات, url: '#section9'}
+- {name: فیلم, url: '#section10'}
+
+

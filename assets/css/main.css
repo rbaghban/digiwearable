@@ -297,7 +297,8 @@ body {
       right: 25px;
       width: 60%; }
       #sub_header .sub_header_container .right_header #header_button {
-        left: 0; }
+        left: 0;
+        display: inline-block; }
         #sub_header .sub_header_container .right_header #header_button .preorder_button {
           cursor: pointer;
           margin-top: 18.5px;
@@ -316,6 +317,13 @@ body {
           text-shadow: rgba(31, 40, 43, 0.49804) 0px -1px 3px;
           visibility: visible;
           width: 100px; }
+      #sub_header .sub_header_container .right_header .sub_header_links {
+        float: right;
+        display: inline-block;
+        font-family: "IRAN"; }
+        #sub_header .sub_header_container .right_header .sub_header_links a {
+          padding-left: 10px;
+          line-height: 72px; }
 
 .sub_header_scrolled {
   position: fixed;
