@@ -484,6 +484,7 @@
 		font-family: 'IRAN'
 
 		.section_text_area	
+			z-index: 10000	
 			position: absolute
 			top: 60px
 			right: 90px
@@ -504,13 +505,17 @@
 				ul
 					img
 						padding-left: 5px
-		.more_detail_spec
-			a
-				text-decoration: none
-				color: #5c92fa
-				cursor: pointer
-				font-size: 20px
-				text-shadow: 1px 1px 3px #000000	
+					a#more_detail
+						z-index: 1000000
+						font-size: 20px
+						color: #5c92fa
+						text-shadow: 1px 1px 3px #000000
+						padding-right: 20px
+					a:hover
+						color: red
+						
+
+
 						
 		.watch_body
 			display: none
@@ -524,7 +529,18 @@
 				background-position: center
 				background-repeat: no-repeat
 				height: 80%
-
+#specs_takeover
+	position: fixed
+	top: 0
+	z-index: 100000
+	background: url('../img/BG/marble.jpg')
+	opacity: 0
+	visibility: hidden
+	.section_content
+		max-width: 1200px
+		position: relative
+		margin: auto
+		height: 100%
 
 
 
@@ -560,8 +576,18 @@
 			.moto360_side
 				height: 75%				
 
-		
+.section_over
+	background-color: #000000
+	width: 100%
+	position: relative
+	background-position: center
+	background-size: cover
+	background-repeat: no-repeat
+	height: 600px
 
+.spec_reveal
+	visibility: inherit
+	opacity: 1
 
 
 

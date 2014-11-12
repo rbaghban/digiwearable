@@ -337,6 +337,9 @@ body {
   width: 100%;
   top: 0; }
 
+.sub_nav_active_link {
+  color: red; }
+
 .section {
   display: block; }
 
@@ -761,6 +764,7 @@ body {
     color: #ebebeb;
     font-family: "IRAN"; }
     #section9 .section_text_area {
+      z-index: 10000;
       position: absolute;
       top: 60px;
       right: 90px;
@@ -780,12 +784,14 @@ body {
           padding-right: 20px; }
       #section9 .section_text_area .spec_list ul img {
         padding-left: 5px; }
-    #section9 .more_detail_spec a {
-      text-decoration: none;
-      color: #5c92fa;
-      cursor: pointer;
-      font-size: 20px;
-      text-shadow: 1px 1px 3px #000000; }
+      #section9 .section_text_area .spec_list ul a#more_detail {
+        z-index: 1000000;
+        font-size: 20px;
+        color: #5c92fa;
+        text-shadow: 1px 1px 3px #000000;
+        padding-right: 20px; }
+      #section9 .section_text_area .spec_list ul a:hover {
+        color: red; }
     #section9 .watch_body {
       display: none; }
     #section9 .quote_container {
@@ -795,22 +801,34 @@ body {
       background-size: contain;
       background-position: center;
       background-repeat: no-repeat;
-      height: 80%; }
-
-  #section1,
-  #section2,
-  #section3,
-  #section4,
-  #section5,
-  #section6,
-  #section8,
-  #section9 {
+      height: 80%; } }
+#specs_takeover {
+  position: fixed;
+  top: 0;
+  z-index: 100000;
+  background: url("../img/BG/marble.jpg");
+  opacity: 0;
+  visibility: hidden; }
+  #specs_takeover .section_content {
+    max-width: 1200px;
+    position: relative;
+    margin: auto;
+    height: 100%; }
+  #specs_takeover #section1,
+  #specs_takeover #section2,
+  #specs_takeover #section3,
+  #specs_takeover #section4,
+  #specs_takeover #section5,
+  #specs_takeover #section6,
+  #specs_takeover #section8,
+  #specs_takeover #section9 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
     position: relative;
-    width: 100%; } }
+    width: 100%; }
+
 @media only screen and (max-width: 1050px) {
   .quote_container {
     right: 80px; }
@@ -827,6 +845,19 @@ body {
     max-width: 100%; }
     #section2 .watch_holder .moto360_side {
       height: 75%; } }
+.section_over {
+  background-color: #000000;
+  width: 100%;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px; }
+
+.spec_reveal {
+  visibility: inherit;
+  opacity: 1; }
+
 #overlay {
   opacity: 0;
   transition: .5s;
