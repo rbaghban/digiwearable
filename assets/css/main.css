@@ -317,17 +317,17 @@ body {
           text-shadow: rgba(31, 40, 43, 0.49804) 0px -1px 3px;
           visibility: visible;
           width: 100px; }
-      #sub_header .sub_header_container .right_header .sub_header_links {
+      #sub_header .sub_header_container .right_header #sub_header_links {
         float: right;
         display: inline-block;
         font-family: "IRAN"; }
-        #sub_header .sub_header_container .right_header .sub_header_links a {
+        #sub_header .sub_header_container .right_header #sub_header_links a {
           padding-left: 15px;
           line-height: 72px;
           color: #ebebeb; }
 
 @media only screen and (max-width: 1050px) {
-  #sub_header .sub_header_container .right_header .sub_header_links a {
+  #sub_header .sub_header_container .right_header #sub_header_links a {
     padding-left: 10px;
     font-size: 12px; }
   #sub_header .sub_header_container .right_header {
