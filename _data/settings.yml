@@ -10,3 +10,15 @@ purchase_menu_nav:
 - {name: مشخصات فنی, url: '#'}
 - {name: وبلاگ, url: '#'}
 - {name: گارانتی, url: '#'}
+
+sub_header_nav_links:
+- {name: Intro, url: '#section1'}
+- {name: Design, url: '#section2'}
+- {name: Quality, url: '#section3'}
+- {name: Update, url: '#section4'}
+- {name: Voice, url: '#section5'}
+- {name: Health, url: '#section6'}
+- {name: Wear, url: '#section7'}
+- {name: Explore, url: '#section8'}
+- {name: Specs, url: '#section9'}
+- {name: Film, url: '#section10'}

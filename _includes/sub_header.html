@@ -7,19 +7,20 @@
             </div>
         </div>
         <div class="right_header">
+          
 
             <div id="header_button">
                 <div class="preorder_button">سفارش دهید</div>
             </div>
-
+            
+              <div class="sub_header_links">
+                {% for item in site.data.settings.sub_header_nav_links %}
+                      <a href="{{ item.url }}">{{ item.name }}</a>
+                {% endfor %}
+            </div>
         </div>
-        <!-- buy me  -->
+ 
 
-
-        <!-- back to top -->
-        <span class="BTT">
-
-        </span>
     </div>
 
 </div>

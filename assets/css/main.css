@@ -245,10 +245,7 @@ body {
 
   #section7 .desktop_section7 {
     display: none; }
-
-  #section9 .watch_body {
-    height: 250px; }
-  #section9 .section_text_area {
+  #section7 .section_text_area {
     display: none; } }
 #main_header {
   height: 3.4375rem;
@@ -298,7 +295,7 @@ body {
     #sub_header .sub_header_container .right_header {
       position: absolute;
       right: 25px;
-      width: 50%; }
+      width: 60%; }
       #sub_header .sub_header_container .right_header #header_button {
         left: 0; }
         #sub_header .sub_header_container .right_header #header_button .preorder_button {
