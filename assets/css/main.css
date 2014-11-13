@@ -587,7 +587,7 @@ body {
 
   #section9 .section_text_area {
     display: none; } }
-@media only screen and (min-width: 961px) and (max-width: 1280px) {
+@media only screen and (min-width: 961px) {
   .quote_container {
     width: 260px;
     direction: rtl;
