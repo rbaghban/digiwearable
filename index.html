@@ -66,23 +66,7 @@
     </style>
 
     <script>
-        var sh = $("#sub_header");
-            shs = "sub_header_scrolled"
-            fpw = $("#section1").height() + 72;
-
-
-        $(window).scroll(function(){
-           if( $(this).scrollTop() > fpw ){
-                sh.addClass(shs);
-                $('#section2').css('marginTop','72px');
-           }
-            else {
-                sh.removeClass(shs);
-                $('#section2').css('marginTop','0');
-            }
-
-
-        });
+       
     </script>
 
     <code>
@@ -90,7 +74,7 @@
         clicking on "#buy_me" adds class "noscroll" on "html"
         clicking on ".close" removes class "open" on "#overlay"
         clicking on ".close" removes class "noscroll" on "html"
-        clicking on "#more_detail" adds class "spec_reveal" on "#spec_takover"
+        
     </code>
 
 </body>

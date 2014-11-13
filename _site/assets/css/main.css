@@ -587,7 +587,7 @@ body {
 
   #section9 .section_text_area {
     display: none; } }
-@media only screen and (min-width: 961px) {
+@media only screen and (min-width: 961px) and (max-width: 1280px) {
   .quote_container {
     width: 260px;
     direction: rtl;
@@ -725,7 +725,8 @@ body {
   #section6 {
     color: #ebebeb;
     text-shadow: black 1px 1px 3px;
-    background: url("../img/BG/section6_desktop.jpg"); }
+    background: url("../img/BG/section6_desktop.jpg");
+    background-size: cover; }
     #section6 .quote_container h1,
     #section6 .quote_container p {
       color: #2c2c2c;
@@ -759,76 +760,43 @@ body {
       left: 0; }
 
   #section9 {
-    background: url("../img/BG/section9_desktop.jpg");
-    direction: rtl;
-    color: #ebebeb;
-    font-family: "IRAN"; }
-    #section9 .section_text_area {
-      z-index: 10000;
-      position: absolute;
-      top: 60px;
-      right: 90px;
-      width: 300px;
-      height: 400px;
-      font-size: 18px; }
-      #section9 .section_text_area h2 {
-        font-size: 24px;
-        color: #ebebeb;
-        margin: 0; }
-      #section9 .section_text_area .spec_list ol,
-      #section9 .section_text_area .spec_list ul {
-        padding: 7px 0;
-        margin: 0; }
-        #section9 .section_text_area .spec_list ol .extra_spaceing,
-        #section9 .section_text_area .spec_list ul .extra_spaceing {
-          padding-right: 20px; }
-      #section9 .section_text_area .spec_list ul img {
-        padding-left: 5px; }
-      #section9 .section_text_area .spec_list ul a#more_detail {
-        z-index: 1000000;
-        font-size: 20px;
-        color: #5c92fa;
-        text-shadow: 1px 1px 3px #000000;
-        padding-right: 20px; }
-      #section9 .section_text_area .spec_list ul a:hover {
-        color: red; }
-    #section9 .watch_body {
-      display: none; }
-    #section9 .quote_container {
-      display: none; }
-    #section9 .watch_holder .moto360_side {
-      background: url("../img/section9_watch.png");
-      background-size: contain;
-      background-position: center;
-      background-repeat: no-repeat;
-      height: 80%; } }
-#specs_takeover {
-  position: fixed;
-  top: 0;
-  z-index: 100000;
-  background: url("../img/BG/marble.jpg");
-  opacity: 0;
-  visibility: hidden; }
-  #specs_takeover .section_content {
-    max-width: 1200px;
-    position: relative;
-    margin: auto;
-    height: 100%; }
-  #specs_takeover #section1,
-  #specs_takeover #section2,
-  #specs_takeover #section3,
-  #specs_takeover #section4,
-  #specs_takeover #section5,
-  #specs_takeover #section6,
-  #specs_takeover #section8,
-  #specs_takeover #section9 {
+    background: url("../img/BG/marble.jpg");
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 600px;
-    position: relative;
+    height: 700px;
     width: 100%; }
-
+    #section9 .section_content {
+      position: relative;
+      margin: auto;
+      height: 100%;
+      max-width: 1200px; }
+      #section9 .section_content .section_text_area_columns {
+        text-align: center;
+        padding-top: 10%; }
+        #section9 .section_content .section_text_area_columns .text_column {
+          width: 40%;
+          display: inline-block;
+          vertical-align: top;
+          text-align: left; }
+          #section9 .section_content .section_text_area_columns .text_column .spec_title {
+            line-height: 25px;
+            font-size: 13px;
+            color: #262626;
+            text-transform: uppercase; }
+          #section9 .section_content .section_text_area_columns .text_column .spec_copy {
+            margin-bottom: 20px;
+            line-height: 17px;
+            font-size: 13px;
+            color: #262626; }
+            #section9 .section_content .section_text_area_columns .text_column .spec_copy .sup {
+              top: -0.5em; }
+              #section9 .section_content .section_text_area_columns .text_column .spec_copy .sup a {
+                text-decoration: none;
+                cursor: pointer;
+                color: #5c92fa; }
+        #section9 .section_content .section_text_area_columns .right_column {
+          float: right; } }
 @media only screen and (max-width: 1050px) {
   .quote_container {
     right: 80px; }
@@ -837,27 +805,6 @@ body {
     max-width: 100%; }
     #section2 .watch_holder .moto360_side {
       height: 75%; } }
-@media only screen and (max-width: 1050px) {
-  .quote_container {
-    right: 65px; }
-
-  #section2 .watch_holder {
-    max-width: 100%; }
-    #section2 .watch_holder .moto360_side {
-      height: 75%; } }
-.section_over {
-  background-color: #000000;
-  width: 100%;
-  position: relative;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 600px; }
-
-.spec_reveal {
-  visibility: inherit;
-  opacity: 1; }
-
 #overlay {
   opacity: 0;
   transition: .5s;

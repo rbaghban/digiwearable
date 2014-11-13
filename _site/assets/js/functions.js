@@ -10,4 +10,18 @@ $(document).ready(function() {
         return false;
     });
 
+    // -------------------------- SUB HEADER JS
+    var sh = $("#sub_header");
+    shs = "sub_header_scrolled"
+    fpw = $("#section1").height() + 72;
+
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > fpw) {
+            sh.addClass(shs);
+            $('#section2').css('marginTop', '72px');
+        } else {
+            sh.removeClass(shs);
+            $('#section2').css('marginTop', '0');
+        }
+    });
 });
