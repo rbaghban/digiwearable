@@ -773,7 +773,7 @@ body {
       max-width: 1200px; }
       #section9 .section_content .section_text_area_columns {
         text-align: center;
-        padding-top: 10%; }
+        padding-top: 100px; }
         #section9 .section_content .section_text_area_columns .text_column {
           width: 40%;
           display: inline-block;
@@ -796,7 +796,20 @@ body {
                 cursor: pointer;
                 color: #5c92fa; }
         #section9 .section_content .section_text_area_columns .right_column {
-          float: right; } }
+          float: right; }
+
+  #section1,
+  #section2,
+  #section3,
+  #section4,
+  #section5,
+  #section6,
+  #section8 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%; } }
 @media only screen and (max-width: 1050px) {
   .quote_container {
     right: 80px; }
