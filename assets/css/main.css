@@ -558,6 +558,15 @@ body {
     width: 60%;
     margin: auto;
     padding-bottom: 80px; }
+    #section9 .mobile_spec #technical_specs_section_wrapper #tech_specs_main_title {
+      font-size: 24px;
+      padding-top: 50px; }
+    #section9 .mobile_spec #technical_specs_section_wrapper .tech_titles {
+      text-transform: uppercase;
+      border-bottom: 1px solid #5d5d5d;
+      width: 100%;
+      padding-top: 20px;
+      font-size: 16px; }
 
 #section1,
 #section2,
