@@ -3,22 +3,22 @@
 	background-color: #222c30
 
 	.footer_container
-		margin: 0 auto
-		width: 90%
+		@include outer-container
+		
+		.first_col,
+		.second_col,
+		.third_col
+			@include span-columns(4)
+			height: 350px
+			+margin(25px null 25px null)
 
-		.left,
-		.middle, 
-		.right
-			height: 400px
-			display: inline-block
-		.left
+
+		.first_col
 			background-color: red
-			width: 32.2%
-
-		.middle
-			background-color: green
-			width: 32.3%
-
-		.right
+			
+		.second_col
 			background-color: blue
-			width: 32.2%
+	
+		.third_col
+			background-color: green
+		
