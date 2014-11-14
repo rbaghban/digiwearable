@@ -863,8 +863,8 @@ body {
   height: 600;
   position: relative; }
   .map_container .contact_header {
-    width: 100%;
     height: 250px;
+    width: 100%;
     background-color: #282828;
     display: block; }
     .map_container .contact_header h1 {
