@@ -567,7 +567,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 1440px;
+  height: 1550px;
   position: relative;
   width: 100%;
   color: #262626;
@@ -579,12 +579,12 @@ body {
     padding-bottom: 80px; }
     #section9 .mobile_spec #technical_specs_section_wrapper #tech_specs_main_title {
       font-size: 24px;
-      padding-top: 50px; }
+      padding-top: 40px; }
     #section9 .mobile_spec #technical_specs_section_wrapper .tech_titles {
       text-transform: uppercase;
       border-bottom: 1px solid #5d5d5d;
       width: 100%;
-      padding-top: 20px;
+      padding-top: 15px;
       font-size: 16px; }
 
 #section1,
