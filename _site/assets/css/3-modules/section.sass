@@ -497,52 +497,55 @@
 		.mobile_spec
 			display: none
 
-		background: url('../img/BG/marble.jpg')
-		background-size: cover
-		background-position: center
-		background-repeat: no-repeat
-		height: 700px
-		width: 100%
+		.desktop_spec
+			display: inherit
+			background: url('../img/BG/marble.jpg')
+			background-size: cover
+			background-position: center
+			background-repeat: no-repeat
+			height: 700px
+			width: 100%
 
-		h1
-			margin: 0
-			padding-top: 40px
-			font-family: 'IRAN'
-			color: #5c92fa
-			text-align: center
-			font-size: 32px
-		.section_content
-			position: relative
-			margin: auto
-			height: 100%
-			max-width: 1200px
-			
-			.section_text_area_columns
+			h1
+				margin: 0
+				padding-top: 40px
+				font-family: 'IRAN'
+				color: #5c92fa
 				text-align: center
-				padding-top: 60px
-				.text_column
-					width: 40%
-					display: inline-block
-					vertical-align: top
-					text-align: left
-					.spec_title
-						line-height: 25px
-						font-size: 13px
-						color: #262626
-						text-transform: uppercase
-					.spec_copy
-						margin-bottom: 20px
-						line-height: 17px
-						font-size: 13px
-						color: #262626
-						.sup
-							top: -0.5em
-							a
-								text-decoration: none
-								cursor: pointer
-								color: #5c92fa
-				.right_column
-					float: right
+				font-size: 32px
+			.section_content
+				position: relative
+				margin: auto
+				height: 100%
+				max-width: 1200px
+				
+				.section_text_area_columns
+					+outer_container
+					text-align: center
+					padding-top: 60px
+					.text_column
+						width: 40%
+						display: inline-block
+						vertical-align: top
+						text-align: left
+						.spec_title
+							line-height: 25px
+							font-size: 13px
+							color: #262626
+							text-transform: uppercase
+						.spec_copy
+							margin-bottom: 20px
+							line-height: 17px
+							font-size: 13px
+							color: #262626
+							.sup
+								top: -0.5em
+								a
+									text-decoration: none
+									cursor: pointer
+									color: #5c92fa
+					.right_column
+						float: right
 
 
 
