@@ -150,6 +150,11 @@ td, th {
 @font-face {
   font-family: 'IRAN';
   src: url("../fonts/IRAN.eot?#") format("eot"), url("../fonts/IRAN.woff") format("woff"), url("../fonts/IRAN.svg") format("svg"), url("../fonts/IRAN.ttf") format("truetype"); }
+.farsi_h1 {
+  font-family: "IRAN";
+  font-size: 28px;
+  margin: 0; }
+
 .gigantic, .huge, .large, .bigger, .big,
 h1, h2, h3, h4, h5, h6 {
   color: #BD5248;
@@ -855,19 +860,20 @@ body {
 
 .map_container {
   width: 100%;
-  height: 450px;
+  height: 600;
   position: relative; }
-
-.map_container .contact_header {
-  width: 100%;
-  height: 100px;
-  background-color: #282828;
-  display: block; }
-
-.map_container #map_canvas {
-  width: 100%;
-  height: 350px;
-  background-color: blue;
-  display: block; }
+  .map_container .contact_header {
+    width: 100%;
+    height: 250px;
+    background-color: #282828;
+    display: block; }
+    .map_container .contact_header h1 {
+      text-align: center;
+      padding-top: 1em; }
+  .map_container #map_canvas {
+    width: 100%;
+    height: 350px;
+    background-color: blue;
+    display: block; }
 
 /*# sourceMappingURL=main.css.map */
