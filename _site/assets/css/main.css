@@ -766,6 +766,13 @@ body {
     background-repeat: no-repeat;
     height: 700px;
     width: 100%; }
+    #section9 h1 {
+      margin: 0;
+      padding-top: 40px;
+      font-family: "IRAN";
+      color: #5c92fa;
+      text-align: center;
+      font-size: 32px; }
     #section9 .section_content {
       position: relative;
       margin: auto;
@@ -773,7 +780,7 @@ body {
       max-width: 1200px; }
       #section9 .section_content .section_text_area_columns {
         text-align: center;
-        padding-top: 100px; }
+        padding-top: 60px; }
         #section9 .section_content .section_text_area_columns .text_column {
           width: 40%;
           display: inline-block;
