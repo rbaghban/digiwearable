@@ -553,7 +553,9 @@ body {
   height: 1440px;
   position: relative;
   width: 100%;
-  color: #262626; }
+  color: #262626;
+  font-size: 16px;
+  line-height: 1.6; }
   #section9 .mobile_spec #technical_specs_section_wrapper {
     width: 60%;
     margin: auto;
