@@ -543,25 +543,22 @@ body {
       background-position: bottom;
       margin-bottom: 30px; }
 
-#section9 {
-  background: url("../img/BG/section9_desktop.jpg");
-  direction: rtl;
-  color: #ebebeb;
-  font-family: "IRAN"; }
-  #section9 h1,
-  #section9 p {
-    color: #ebebeb;
-    text-shadow: black 1px 1px 3px; }
-  #section9 .watch_body {
-    background: url("../img/section9_watch.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    position: absolute;
-    bottom: 0;
-    margin-bottom: 30px;
-    height: 280px;
-    width: 100%; }
+#section9 #desktop_spec {
+  display: none; }
+#section9 #mobile_spec {
+  background: url("../img/BG/marble.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1440px;
+  position: relative;
+  width: 100%;
+  color: #262626;
+  overflow: hidden; }
+  #section9 #mobile_spec #technical_specs_section_wrapper {
+    width: 60%;
+    margin: auto;
+    padding-bottom: 80px; }
 
 #section1,
 #section2,
@@ -569,8 +566,7 @@ body {
 #section4,
 #section5,
 #section6,
-#section8,
-#section9 {
+#section8 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -771,6 +767,8 @@ body {
     background-repeat: no-repeat;
     height: 700px;
     width: 100%; }
+    #section9 #technical_specs_section {
+      display: none; }
     #section9 h1 {
       margin: 0;
       padding-top: 40px;

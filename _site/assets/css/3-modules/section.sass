@@ -218,24 +218,27 @@
 			margin-bottom: 30px
 
 #section9
-	h1,
-	p
-		color: rgb(235,235,235)
-		text-shadow: rgb(0, 0, 0) 1px 1px 3px
-	background: url('../img/BG/section9_desktop.jpg')
-	direction: rtl
-	color: #ebebeb
-	font-family: 'IRAN'
-	.watch_body
-		background: url('../img/section9_watch.png')
-		background-size: contain
+	#desktop_spec
+		display: none
+
+	#mobile_spec
+		background: url('../img/BG/marble.jpg')
+		background-position: center
 		background-repeat: no-repeat
-		background-position: bottom
-		position: absolute
-		bottom: 0
-		margin-bottom: 30px
-		height: 280px
+		background-size: cover
+		height: 1440px
+		position: relative
 		width: 100%
+		color: #262626
+
+		overflow: hidden
+
+		#technical_specs_section_wrapper
+			width: 60%
+			margin: auto
+			padding-bottom: 80px
+
+
 	
 
 #section1,
@@ -244,8 +247,7 @@
 #section4,
 #section5,
 #section6,
-#section8,
-#section9
+#section8
 	background-position: center
 	background-repeat: no-repeat
 	background-size: cover
@@ -478,7 +480,12 @@
 			// 	height: 80%
 			// 	position: absolute
 			// 	top: 0
+	
+
 	#section9
+		#technical_specs_section
+			display: none
+
 		background: url('../img/BG/marble.jpg')
 		background-size: cover
 		background-position: center
