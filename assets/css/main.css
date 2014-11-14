@@ -543,9 +543,9 @@ body {
       background-position: bottom;
       margin-bottom: 30px; }
 
-#section9 #desktop_spec {
+#section9 .desktop_spec {
   display: none; }
-#section9 #mobile_spec {
+#section9 .mobile_spec {
   background: url("../img/BG/marble.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -553,9 +553,8 @@ body {
   height: 1440px;
   position: relative;
   width: 100%;
-  color: #262626;
-  overflow: hidden; }
-  #section9 #mobile_spec #technical_specs_section_wrapper {
+  color: #262626; }
+  #section9 .mobile_spec #technical_specs_section_wrapper {
     width: 60%;
     margin: auto;
     padding-bottom: 80px; }
@@ -767,7 +766,7 @@ body {
     background-repeat: no-repeat;
     height: 700px;
     width: 100%; }
-    #section9 #technical_specs_section {
+    #section9 .mobile_spec {
       display: none; }
     #section9 h1 {
       margin: 0;
