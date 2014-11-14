@@ -771,6 +771,10 @@ body {
     background-repeat: no-repeat;
     height: 700px;
     width: 100%; }
+    #section9:after {
+      content: "";
+      display: table;
+      clear: both; }
     #section9 h1 {
       margin: 0;
       padding-top: 40px;
@@ -830,6 +834,11 @@ body {
     max-width: 100%; }
     #section2 .watch_holder .moto360_side {
       height: 75%; } }
+#footer {
+  height: 400px;
+  width: 100%;
+  background-color: #282828; }
+
 #overlay {
   opacity: 0;
   transition: .5s;
