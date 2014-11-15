@@ -225,15 +225,17 @@ body {
       content: "";
       display: table;
       clear: both; }
-    #purchase_header .header_container .logo {
-      background: red;
+    #purchase_header .header_container .moto-paarseh-logo {
       float: left;
       display: block;
       margin-right: 2.12766%;
       width: 23.40426%;
-      height: 72px; }
-      #purchase_header .header_container .logo:last-child {
+      height: 72px;
+      width: 100%; }
+      #purchase_header .header_container .moto-paarseh-logo:last-child {
         margin-right: 0; }
+      #purchase_header .header_container .moto-paarseh-logo img {
+        margin-top: 11px; }
     #purchase_header .header_container #purchase_navigation {
       background: green;
       float: left;
@@ -244,6 +246,12 @@ body {
       margin-left: 8.51064%; }
       #purchase_header .header_container #purchase_navigation:last-child {
         margin-right: 0; }
+      @media screen and (min-width: 27.5625em) and (max-width: 60em) {
+        #purchase_header .header_container #purchase_navigation {
+          display: none; } }
+      @media screen and (max-width: 440px) {
+        #purchase_header .header_container #purchase_navigation {
+          display: none; } }
 
 #main_content {
   max-width: 87.5em;
