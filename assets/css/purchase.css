@@ -213,43 +213,43 @@ body {
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%; }
 
-#purchase_header {
+#wrapper #purchase_header {
   height: 72px;
   width: 100%;
   background: #272727;
   position: fixed;
   z-index: 1000;
   border-bottom: 1px solid #e5e5e5; }
-  #purchase_header .header_container {
+  #wrapper #purchase_header .header_container {
     height: 72px;
     width: 95%; }
-    #purchase_header .header_container .moto-paarseh-logo {
+    #wrapper #purchase_header .header_container .moto-paarseh-logo {
       width: 30%;
       float: left;
       display: inline-block; }
       @media screen and (max-width: 960px) {
-        #purchase_header .header_container .moto-paarseh-logo {
+        #wrapper #purchase_header .header_container .moto-paarseh-logo {
           width: 100%;
           text-align: center; } }
       @media screen and (max-width: 440px) {
-        #purchase_header .header_container .moto-paarseh-logo img {
+        #wrapper #purchase_header .header_container .moto-paarseh-logo img {
           height: 45px;
           margin-top: 18.5px; } }
-      #purchase_header .header_container .moto-paarseh-logo img {
+      #wrapper #purchase_header .header_container .moto-paarseh-logo img {
         margin-top: 11px;
         padding-left: 20px; }
-    #purchase_header .header_container #purchase_navigation {
+    #wrapper #purchase_header .header_container #purchase_navigation {
       width: 60%;
       float: right;
       padding-right: 30px;
       direction: rtl; }
       @media screen and (max-width: 440px) {
-        #purchase_header .header_container #purchase_navigation {
+        #wrapper #purchase_header .header_container #purchase_navigation {
           display: none; } }
       @media screen and (min-width: 27.5625em) and (max-width: 60em) {
-        #purchase_header .header_container #purchase_navigation {
+        #wrapper #purchase_header .header_container #purchase_navigation {
           display: none; } }
-      #purchase_header .header_container #purchase_navigation a {
+      #wrapper #purchase_header .header_container #purchase_navigation a {
         text-align: right;
         color: white;
         text-decoration: none;
@@ -257,19 +257,19 @@ body {
         line-height: 72px;
         padding-left: 15px;
         font-size: 16px; }
-    #purchase_header .header_container .menu_icon {
+    #wrapper #purchase_header .header_container .menu_icon {
       position: absolute;
       top: 24px;
       right: 24px;
       opacity: 0.8; }
       @media screen and (min-width: 60.0625em) {
-        #purchase_header .header_container .menu_icon {
+        #wrapper #purchase_header .header_container .menu_icon {
           display: none; } }
       @media screen and (max-width: 440px) {
-        #purchase_header .header_container .menu_icon {
+        #wrapper #purchase_header .header_container .menu_icon {
           top: 27px;
           right: 10px; }
-          #purchase_header .header_container .menu_icon img {
+          #wrapper #purchase_header .header_container .menu_icon img {
             height: 18px;
             width: 18px; } }
 

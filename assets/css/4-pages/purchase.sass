@@ -1,63 +1,65 @@
-#purchase_header
-	+size(100% 72px)
-	background: #272727
-	position: fixed
-	z-index: 1000
-	border-bottom: 1px solid #e5e5e5
 
-	.header_container
-		+size(95% 72px)
+#wrapper
+	#purchase_header
+		+size(100% 72px)
+		background: #272727
+		position: fixed
+		z-index: 1000
+		border-bottom: 1px solid #e5e5e5
 
-		.moto-paarseh-logo
-			+media(max-width 960px)
-				width: 100%
-				text-align: center
-				
-			+media($mobile)
+		.header_container
+			+size(95% 72px)
+
+			.moto-paarseh-logo
+				+media(max-width 960px)
+					width: 100%
+					text-align: center
+					
+				+media($mobile)
+					img
+						height: 45px
+						margin-top: 18.5px
+
+
+				width: 30%
+				float: left
+				display: inline-block
 				img
-					height: 45px
-					margin-top: 18.5px
+					margin-top: 11px
+					padding-left: 20px
+			
+			#purchase_navigation
+				+media($mobile)
+					display: none
+				+media($tablet)
+					display: none
 
+				width: 60%
+				float: right
+				padding-right: 30px
+				direction: rtl
+				a
+					text-align: right
+					color: white
+					text-decoration: none
+					font-family: 'IRAN'
+					line-height: 72px
+					padding-left: 15px
+					font-size: 16px
 
-			width: 30%
-			float: left
-			display: inline-block
-			img
-				margin-top: 11px
-				padding-left: 20px
-		
-		#purchase_navigation
-			+media($mobile)
-				display: none
-			+media($tablet)
-				display: none
+			.menu_icon
+				+media($desktop)
+					display: none
+				+media($mobile)
+					top: 27px
+					right: 10px
+					img
+						+size(18px)
 
-			width: 60%
-			float: right
-			padding-right: 30px
-			direction: rtl
-			a
-				text-align: right
-				color: white
-				text-decoration: none
-				font-family: 'IRAN'
-				line-height: 72px
-				padding-left: 15px
-				font-size: 16px
-
-		.menu_icon
-			+media($desktop)
-				display: none
-			+media($mobile)
-				top: 27px
-				right: 10px
-				img
-					+size(18px)
-
-			position: absolute
-			top: 24px
-			right: 24px
-			opacity: .8
+				position: absolute
+				top: 24px
+				right: 24px
+				opacity: .8
 
 
 
