@@ -5,16 +5,14 @@
     top: 0;
     height: 100%;
     z-index: 999999;
-    width: 260px;
+    width: 180px;
     overflow-x: none;
     overflow-y: auto;
     font-family: "IRAN", tahoma, verdana, arial, sans-serif;
     font-size: 15px;
-    background: #333;
+    background: #272727;
     color: #fff;
-    -webkit-box-shadow: inset 0 0 5px 5px #222;
-    -moz-box-shadow: inset 0 0 5px 5px #222;
-    box-shadow: inset 0 0 5px 5px #222
+
 }
 .sidr .sidr-inner {
     padding: 0 0 15px
@@ -25,10 +23,10 @@
 }
 .sidr.right {
     left: auto;
-    right: -260px
+    right: -180px
 }
 .sidr.left {
-    left: -260px;
+    left: -180px;
     right: auto
 }
 .sidr h1, .sidr h2, .sidr h3, .sidr h4, .sidr h5, .sidr h6 {
@@ -38,14 +36,6 @@
     margin: 0 0 5px;
     color: #fff;
     line-height: 24px;
-    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #4d4d4d), color-stop(100%, #1a1a1a));
-    background-image: -webkit-linear-gradient(#4d4d4d, #1a1a1a);
-    background-image: -moz-linear-gradient(#4d4d4d, #1a1a1a);
-    background-image: -o-linear-gradient(#4d4d4d, #1a1a1a);
-    background-image: linear-gradient(#4d4d4d, #1a1a1a);
-    -webkit-box-shadow: 0 5px 5px 3px rgba(0, 0, 0, 0.2);
-    -moz-box-shadow: 0 5px 5px 3px rgba(0, 0, 0, 0.2);
-    box-shadow: 0 5px 5px 3px rgba(0, 0, 0, 0.2)
 }
 .sidr p {
     font-size: 13px;
