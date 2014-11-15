@@ -3,7 +3,7 @@
 	#purchase_header
 		+size(100% 72px)
 		background: #272727
-		position: fixed
+		position: relative
 		z-index: 1000
 		border-bottom: 1px solid #e5e5e5
 
@@ -57,41 +57,41 @@
 				right: 15px
 				opacity: .8
 
+	#main_content
+		+outer-container()
+		color: black
+		direction: rtl
+		font-family: 'IRAN'
+
+		h1.promo
+			margin-top: 60px
+			padding-right: 20px
+			font-family: 44px
+
+			
+		.side_content
+			@include span-columns(7)
+			background: blue
+			height: 100px
+
+		.deviceContainer
+			@include span-columns(5)
+			height: 300px
+			
+
+			background: red
+			.watch_container
+				img
+					+size(100%)
+					text-align: center
 
 
 
 
 
 
-// // section content
-// #main_content
-// 	+outer_container
-// 	+media($tablet)
-// 		+span-columns(8)
 
 
-// 	margin-top: 100px
-// 	height: 500px
-// 	.left_purchase
-// 		+span-columns(3)
-// 		background: red
-// 		height: 400px
-// 		+media($mobile)
-// 			display: none
+			
 
-// 	.main_section
-// 		+span-columns(6)
-// 		background: blue
-// 		height: 400px
-// 		+media($mobile)
-// 			+span-columns(6)
-		
-
-
-// 	.right_text
-// 		+span-columns(3)
-// 		background: red
-// 		height: 400px
-// 		+media($mobile)
-// 			+span-columns(6)
 
