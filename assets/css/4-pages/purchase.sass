@@ -1,0 +1,40 @@
+// Header
+
+#purchase_header
+	+size(100% 72px)
+	background: #272727
+	
+	.header_container
+		+outer_container
+
+		.logo
+			background: red
+			@include span-columns(3)
+			height: 72px
+		#purchase_navigation
+			background: green
+			@include span-columns(8)
+			height: 72px
+			@include shift(1)
+
+
+
+// section content
+#main_content
+	+outer_container
+	margin-top: 100px
+	height: 500px
+	.left_purchase
+		+span-columns(3)
+		background: red
+		height: 400px
+
+	.main_section
+		+span-columns(6)
+		background: blue
+		height: 400px
+
+	.right_text
+		+span-columns(3)
+		background: red
+		height: 400px
