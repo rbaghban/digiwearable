@@ -279,9 +279,9 @@ body {
     display: table;
     clear: both; }
   #wrapper #main_content h1.promo {
-    margin-top: 60px;
+    margin-top: 30px;
     padding-right: 20px;
-    font-family: 44px; }
+    font-size: 32px; }
   #wrapper #main_content .side_content {
     float: left;
     display: block;
@@ -292,7 +292,7 @@ body {
     #wrapper #main_content .side_content:last-child {
       margin-right: 0; }
     #wrapper #main_content .side_content .input-lg {
-      height: 60px;
+      height: 50px;
       padding: 10px 16px;
       margin-bottom: 16px;
       border-radius: 6px;
