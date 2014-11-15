@@ -292,12 +292,22 @@ body {
     #wrapper #main_content .side_content:last-child {
       margin-right: 0; }
     #wrapper #main_content .side_content .input-lg {
-      height: 50px;
+      height: 45px;
       padding: 10px 16px;
       margin-bottom: 16px;
       border-radius: 6px;
       font-size: 18px;
       border: 1px solid #ccc; }
+    #wrapper #main_content .side_content .submit_button {
+      background-color: #33a1ff;
+      color: #ffffff;
+      border-color: #33a1ff;
+      width: 150px;
+      height: 45px;
+      font-size: 18px;
+      cursor: pointer;
+      -webkit-appearance: button;
+      border-radius: 6px; }
   #wrapper #main_content .deviceContainer {
     float: left;
     display: block;
