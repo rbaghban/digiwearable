@@ -31,6 +31,7 @@
 				display: none
 			+media($tablet)
 				display: none
+
 			width: 60%
 			float: right
 			padding-right: 30px
@@ -44,44 +45,23 @@
 				padding-left: 15px
 				font-size: 16px
 
+		.menu_icon
+			+media($desktop)
+				display: none
+			+media($mobile)
+				top: 27px
+				right: 10px
+				img
+					+size(18px)
+
+			position: absolute
+			top: 24px
+			right: 24px
+			opacity: .8
 
 
 
 
-
-// // Header
-
-// #purchase_header
-// 	+size(100% 72px)
-// 	background: #272727
-	
-// 	.header_container
-// 		+outer_container(95%)
-
-
-// 		.moto-paarseh-logo
-
-// 			height: 50px
-// 			img
-// 				margin-top: 11px 
-
-
-// 			@include media($tablet)
-// 				text-align: center
-// 			@include media($mobile)
-// 				text-align: center
-// 				img
-// 					height: 35px
-// 					margin-top: 18.5px
-				
-// 		#purchase_navigation
-// 			height: 72px
-// 			width: 60%
-// 			background: green
-// 			+media($tablet)
-// 				display: none
-// 			+media($mobile)
-// 				display: none
 
 
 

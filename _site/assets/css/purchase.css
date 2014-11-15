@@ -257,5 +257,20 @@ body {
         line-height: 72px;
         padding-left: 15px;
         font-size: 16px; }
+    #purchase_header .header_container .menu_icon {
+      position: absolute;
+      top: 24px;
+      right: 24px;
+      opacity: 0.8; }
+      @media screen and (min-width: 60.0625em) {
+        #purchase_header .header_container .menu_icon {
+          display: none; } }
+      @media screen and (max-width: 440px) {
+        #purchase_header .header_container .menu_icon {
+          top: 27px;
+          right: 10px; }
+          #purchase_header .header_container .menu_icon img {
+            height: 18px;
+            width: 18px; } }
 
 /*# sourceMappingURL=purchase.css.map */
