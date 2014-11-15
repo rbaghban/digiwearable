@@ -287,17 +287,18 @@ body {
     display: block;
     margin-right: 0.93458%;
     width: 57.94393%;
-    background: blue;
-    height: 100px; }
+    height: 100px;
+    direction: rtl; }
     #wrapper #main_content .side_content:last-child {
       margin-right: 0; }
+    #wrapper #main_content .side_content .input-lg {
+      height: 45px; }
   #wrapper #main_content .deviceContainer {
     float: left;
     display: block;
     margin-right: 0.93458%;
     width: 41.1215%;
-    height: 300px;
-    background: red; }
+    height: 300px; }
     #wrapper #main_content .deviceContainer:last-child {
       margin-right: 0; }
     #wrapper #main_content .deviceContainer .watch_container img {
