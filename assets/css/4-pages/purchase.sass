@@ -6,6 +6,8 @@
 	
 	.header_container
 		+outer_container
+		$mobile: new-breakpoint(max-width 440px 6)
+
 
 		.logo
 			background: red
@@ -22,20 +24,30 @@
 // section content
 #main_content
 	+outer_container
-	$mobile: new-breakpoint(max-width 500px 4)
+	+media($tablet)
+		+span-columns(8)
+
+
 	margin-top: 100px
 	height: 500px
 	.left_purchase
 		+span-columns(3)
 		background: red
 		height: 400px
+		+media($mobile)
+			display: none
 
 	.main_section
 		+span-columns(6)
 		background: blue
 		height: 400px
+		+media($mobile)
+			+span-columns(6)
+
 
 	.right_text
 		+span-columns(3)
 		background: red
 		height: 400px
+		+media($mobile)
+			+span-columns(6)
