@@ -292,7 +292,7 @@ body {
     #wrapper #main_content .side_content:last-child {
       margin-right: 0; }
     #wrapper #main_content .side_content .input-lg {
-      height: 45px;
+      height: 60px;
       padding: 10px 16px;
       margin-bottom: 16px;
       border-radius: 6px;
@@ -310,5 +310,12 @@ body {
       height: 100%;
       width: 100%;
       text-align: center; }
+    #wrapper #main_content .deviceContainer .thumbnail_container ul {
+      text-align: center;
+      text-decoration: none;
+      padding: 0; }
+      #wrapper #main_content .deviceContainer .thumbnail_container ul li {
+        display: inline-block;
+        padding-left: 15px; }
 
 /*# sourceMappingURL=purchase.css.map */
