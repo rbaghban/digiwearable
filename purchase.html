@@ -26,7 +26,9 @@
             </div>
 
             <nav id="purchase_navigation">
-                <!-- navigation such as blog, product description, news, and etc -->
+                {% for item in site.data.settings.purchase_menu_nav %}
+                    <a href="{{ item.url }}">{{ item.name }}</a>
+                {% endfor %}
             </nav>
         </div>
 

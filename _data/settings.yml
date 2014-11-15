@@ -7,9 +7,11 @@ main_nav:
 - {name: سایر محصولات, url: ''}
 
 purchase_menu_nav:
-- {name: مشخصات فنی, url: '#'}
+- {name: مشخصات, url: '#'}
 - {name: وبلاگ, url: '#'}
-- {name: گارانتی, url: '#'}
+- {name: سرفیس پرو۳, url: '#'}
+- {name: فروشگاه تاپ سان, url: '#'}
+
 
 sub_header_nav_links_english:
 - {name: Film, url: '#section10'}
