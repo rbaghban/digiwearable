@@ -63,7 +63,8 @@
     margin: 0 0 15px;
     padding: 0;
     border-top: 1px solid #1a1a1a;
-    border-bottom: 1px solid #4d4d4d
+    border-bottom: 1px solid #4d4d4d;
+    direction: rtl;
 }
 .sidr ul li {
     display: block;
@@ -77,9 +78,10 @@
     line-height: 49px
 }
 .sidr ul li:hover>a, .sidr ul li:hover>span, .sidr ul li.active>a, .sidr ul li.active>span, .sidr ul li.sidr-class-active>a, .sidr ul li.sidr-class-active>span {
-    -webkit-box-shadow: inset 0 0 15px 3px #222;
+   /*-webkit-box-shadow: inset 0 0 15px 3px #222;
     -moz-box-shadow: inset 0 0 15px 3px #222;
-    box-shadow: inset 0 0 15px 3px #222
+    box-shadow: inset 0 0 15px 3px #222;*/
+    border-bottom: 1px dotted white solid;
 }
 .sidr ul li a, .sidr ul li span {
     padding: 0 15px;
@@ -103,9 +105,10 @@
     line-height: 41px
 }
 .sidr ul li ul li:hover>a, .sidr ul li ul li:hover>span, .sidr ul li ul li.active>a, .sidr ul li ul li.active>span, .sidr ul li ul li.sidr-class-active>a, .sidr ul li ul li.sidr-class-active>span {
-    -webkit-box-shadow: inset 0 0 15px 3px #222;
+    /*-webkit-box-shadow: inset 0 0 15px 3px #222;
     -moz-box-shadow: inset 0 0 15px 3px #222;
-    box-shadow: inset 0 0 15px 3px #222
+    box-shadow: inset 0 0 15px 3px #222;*/
+    border-bottom: 1px dotted white solid;
 }
 .sidr ul li ul li a, .sidr ul li ul li span {
     color: rgba(255, 255, 255, 0.8);
