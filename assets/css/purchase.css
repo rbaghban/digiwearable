@@ -233,7 +233,7 @@ body {
           text-align: center; } }
       @media screen and (max-width: 440px) {
         #wrapper #purchase_header .header_container .moto-paarseh-logo img {
-          height: 45px;
+          height: 40px;
           margin-top: 18.5px; } }
       #wrapper #purchase_header .header_container .moto-paarseh-logo img {
         margin-top: 11px;
@@ -262,7 +262,7 @@ body {
     #wrapper #purchase_header .header_container .menu_icon {
       position: absolute;
       top: 24px;
-      right: 24px;
+      right: 15px;
       opacity: 0.8; }
       @media screen and (min-width: 60.0625em) {
         #wrapper #purchase_header .header_container .menu_icon {
