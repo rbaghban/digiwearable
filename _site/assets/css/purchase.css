@@ -292,7 +292,12 @@ body {
     #wrapper #main_content .side_content:last-child {
       margin-right: 0; }
     #wrapper #main_content .side_content .input-lg {
-      height: 45px; }
+      height: 45px;
+      padding: 10px 16px;
+      margin-bottom: 16px;
+      border-radius: 6px;
+      font-size: 18px;
+      border: 1px solid #ccc; }
   #wrapper #main_content .deviceContainer {
     float: left;
     display: block;
