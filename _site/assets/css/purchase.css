@@ -230,11 +230,13 @@ body {
       @media screen and (max-width: 960px) {
         #purchase_header .header_container .moto-paarseh-logo {
           width: 100%;
-          text-align: center; }
-          #purchase_header .header_container .moto-paarseh-logo a {
-            text-align: center; } }
+          text-align: center; } }
+      @media screen and (max-width: 440px) {
+        #purchase_header .header_container .moto-paarseh-logo img {
+          height: 45px;
+          margin-top: 18.5px; } }
       #purchase_header .header_container .moto-paarseh-logo img {
-        padding-top: 11px;
+        margin-top: 11px;
         padding-left: 20px; }
     #purchase_header .header_container #purchase_navigation {
       width: 60%;

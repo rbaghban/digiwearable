@@ -11,15 +11,19 @@
 		.moto-paarseh-logo
 			+media(max-width 960px)
 				width: 100%
-
 				text-align: center
-				a
-					text-align: center
+				
+			+media($mobile)
+				img
+					height: 45px
+					margin-top: 18.5px
+
+
 			width: 30%
 			float: left
 			display: inline-block
 			img
-				padding-top: 11px
+				margin-top: 11px
 				padding-left: 20px
 		
 		#purchase_navigation
