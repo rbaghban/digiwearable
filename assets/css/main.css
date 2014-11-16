@@ -965,7 +965,8 @@ body {
         #footer .footer_container .other_products .products li {
           display: inline-block;
           height: 32px;
-          text-decoration: none; }
+          text-decoration: none;
+          margin-bottom: 15px; }
           #footer .footer_container .other_products .products li img {
             height: 42px;
             width: 42px;
