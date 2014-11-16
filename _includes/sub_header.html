@@ -7,19 +7,19 @@
             </div>
         </div>
         <div class="right_header">
-          
 
-            <div id="header_button">
-                <div class="preorder_button">سفارش دهید</div>
+
+            <div id="buy_me">
+                <a href="purchase.html">سفارش دهید</a>
             </div>
-            
-              <div id="sub_header_links">
+
+            <div id="sub_header_links">
                 {% for item in site.data.settings.sub_header_nav_links %}
-                      <a href="{{ item.url }}">{{ item.name }}</a>
+                <a href="{{ item.url }}">{{ item.name }}</a>
                 {% endfor %}
             </div>
         </div>
- 
+
 
     </div>
 

@@ -358,27 +358,20 @@ body {
       position: absolute;
       right: 25px;
       width: 65%; }
-      #sub_header .sub_header_container .right_header #header_button {
+      #sub_header .sub_header_container .right_header #buy_me {
         left: 0;
-        display: inline-block; }
-        #sub_header .sub_header_container .right_header #header_button .preorder_button {
-          cursor: pointer;
-          margin-top: 18.5px;
-          -webkit-font-smoothing: antialiased;
+        display: inline-block;
+        margin-top: 13.5px; }
+        #sub_header .sub_header_container .right_header #buy_me a {
+          text-decoration: none;
+          text-shadow: rgba(31, 40, 43, 0.49804) 0px -1px 3px;
+          line-height: 45px;
+          color: white;
+          padding: 7px 20px;
+          font-family: "IRAN";
           background-color: #5d8efd;
           border-radius: 5px;
-          box-sizing: border-box;
-          color: white;
-          display: block;
-          font-family: "IRAN";
-          font-size: 14px;
-          height: 35px;
-          letter-spacing: normal;
-          line-height: 35px;
-          text-align: center;
-          text-shadow: rgba(31, 40, 43, 0.49804) 0px -1px 3px;
-          visibility: visible;
-          width: 100px; }
+          font-size: 16px; }
       #sub_header .sub_header_container .right_header #sub_header_links {
         float: right;
         display: inline-block;

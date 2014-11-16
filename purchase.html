@@ -1,44 +1,51 @@
----
----
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <title>سفارش خرید موتو ۳۶۰ | DigiWearable.ir</title>
     <meta charset="utf-8">
+    <meta name="Description" content="فروش و خدمات پس از فروش گجت های پوشیدنی با گارانتی امتداد پارسه">
+    <meta name="Keywords" content="ساعت هوشمند, موتو۳۶۰, پوشیدنی, MOTO360, گجت, مایکروسافت, دستبند, ساعت , هوشمند">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="">
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
     <link href='http://fonts.googleapis.com/css?family=Roboto:100,300|Roboto+Condensed:300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="assets/css/purchase.css" />
     <link rel="stylesheet" href="assets/css/vendors/jquery.sidr.dark.css" />
     <script src="assets/js/google_analytics.js" type="text/javascript"></script>
-    <!--     <link rel="stylesheet" type="text/css" href="assets/css/jquery.fullPage.css" />
- -->
-</head>
+ </head>
 
 <body>
     <div class="sidr">
         <ul>
-            <li><a href="#">مشخصات فنی</a></li>
-            <li><a href="#">وبلاگ</a></li>
-            <li><a href="#">سرفیس پرو۳</a></li>
-            <li><a href="#">فروشگاه تاپ سان</a></li>
+            <li><a href="http://digiwearable.ir">مشخصات فنی</a>
+            </li>
+            <li><a href="#">وبلاگ</a>
+            </li>
+            <li><a href="http://mysurface.ir" target="_blank">سرفیس پرو۳</a>
+            </li>
+            <li><a href="http://topsun.ir" target="_blank">فروشگاه تاپ سان</a>
+            </li>
         </ul>
     </div>
 
-    <div id="wrapper">      
+    <div id="wrapper">
         <header id="purchase_header">
             <div class="header_container">
-                
-               <div class="moto-paarseh-logo">
+
+                <div class="moto-paarseh-logo">
                     <img src="assets/img/moto-paarseh-small.png" alt="موتو ۳۶۰">
                 </div>
 
                 <nav id="purchase_navigation">
-                    {% for item in site.data.settings.purchase_menu_nav %}
-                        <a href="{{ item.url }}">{{ item.name }}</a>
-                    {% endfor %}
+
+                    <a href="http://digiwearable.ir">مشخصات</a>
+
+                    <a href="#">وبلاگ</a>
+
+                    <a href="http://mysurface.ir" target="_blank">سرفیس پرو۳</a>
+
+                    <a href="http://eparseh.com" target="_blank">فروشگاه تاپ سان</a>
+
                 </nav>
                 <span class="menu_icon">
                     <a id="right-menu" href="#sidr">
@@ -50,8 +57,8 @@
         </header>
 
         <div id="main_content">
-             <h1 class="promo">از اولین ها باشید</h1>
-             <div class="side_content">
+            <h1 class="promo">از اولین ها باشید</h1>
+            <div class="side_content">
                 <h2>ثبت سفارش آنلاین</h2>
 
                 <p>لطفا سفارش خود را ثبت کنید تا کارشناسان ما در اسرع وقت با شما در مورد این محصول شگفت انگیز تماس بگیرند</p>
@@ -59,46 +66,62 @@
                 <form class="purchase_form" action="purchase.php" method="post" name="contact_form">
 
 
-                    <input name="first_name" id="first_name" class="input-lg" type="TEXT" maxlength="120" size="50" placeholder="نام" tabindex="1">
+                    <input name="first_name" id="first_name" class="input-lg" type="TEXT" maxlength="120" size="50" placeholder="نام *" tabindex="1">
                     <br>
-                    <input name="last_name" id="last_name" class="input-lg" type="TEXT" maxlength="120" size="50" placeholder="نام خانوادگی" tabindex="2">
+                    <input name="last_name" id="last_name" class="input-lg" type="TEXT" maxlength="120" size="50" placeholder="نام خانوادگی *" tabindex="2">
                     <br>
-                    <input name="email" id="email" class="input-lg" type="TEXT" maxlength="120" size="50" placeholder="پست الکترونیکی" tabindex="3">
+                    <input name="email" id="email" class="input-lg" type="TEXT" maxlength="120" size="50" placeholder="پست الکترونیکی *" tabindex="3">
                     <br>
-                    <input name="phone" id="phone" class="input-lg" type="TEXT" maxlength="120" size="50" placeholder="شماره تماس" tabindex="4">
+                    <input name="phone" id="phone" class="input-lg" type="TEXT" maxlength="120" size="50" placeholder="شماره تماس *" tabindex="4">
                     <br>
-                    <input name="detail" id="detail" class="input-lg" type="TEXT" maxlength="260" size="50" placeholder="توضیحات سفارش" tabindex="4">
+                    <input name="detail" id="detail" class="input-lg" type="TEXT" pattern="[0-9]{11}" maxlength="260" size="50" placeholder="توضیحات سفارش *" tabindex="5">
                     <br>
                     <br>
                     <input id="submit_btn" class="submit_button" name="submit_btn" type="submit" value="ثبت سفارش" rntsubmit="true">
 
-
+                    <p class="sucessfull">با تشکر از حسن انتخاب شما. اطلاعات تماس شما در سیستم فروش شرکت امتداد پارسه ثبت گردید. کارشناسان فروش ما در اولین فرصت با شما تماس خواهند گرفت.</p>
                 </form>
-                
-            </div>   
-            <div class="deviceContainer">
-               
-               <div class="watch_container">
-                   <img src="assets/img/watches/black_leather.png" alt="">
-               </div>
-               <div class="thumbnail_container">
-                   <ul class="thumb">
-                       <li><a href="#"><img src="assets/img/watches/black_leather_tumb.png" alt=""></a></li>
-                       <li><a href="#"><img src="assets/img/watches/stone_leather_thumb.png" alt=""></a></li>
-                       <li><a href="#"><img src="assets/img/watches/black_steel_thumb.png" alt=""></a></li>
-                       <li><a href="#"><img src="assets/img/watches/gey_steel_thumb.png" alt=""></a></li>
-                   </ul>
-               </div>
+                    
+            </div>
+            <div class="device_container">
+
+                <div class="watch_container">
+                    <img src="assets/img/watches/black_leather.png" alt="moto360 leather black">
+                </div>
+                <div class="thumbnail_container">
+                    <ul class="thumb">
+                        <li>
+                            <a href="#">
+                                <img src="assets/img/watches/black_leather_tumb.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="assets/img/watches/stone_leather_thumb.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="assets/img/watches/black_steel_thumb.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="assets/img/watches/gey_steel_thumb.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
 
             </div>
-           
+
         </div>
     </div>
 
-  
-   	
-    
-    
+
+
+
+
 
     <script src="assets/js/jquery-2.1.1.min.js"></script>
     <script src="assets/js/functions.js" type="text/javascript"></script>
@@ -106,15 +129,101 @@
     <script src="assets/js/vendors/uilang.js" type="text/javascript"></script>
     <script src="assets/js/simple_gall.js" type="text/javascript"></script>
     <script src="assets/js/vendors/jquery.sidr.min.js" type="text/javascript"></script>
-<script>
-$(document).ready(function() {
-    $('#right-menu').sidr({
-      name: 'sidr-right',
-      side: 'right',
-      source: '.sidr'
+    <!-- validate js -->
+    <script src="assets/js/vendors/jquery.validate.min.js" type="text/javascript"></script>
+    <script src="assets/js/vendors/additional-methods.min.js" type="text/javascript"></script>
+
+    <script>
+    $(document).ready(function() {
+
+        $(".purchase_form").validate({
+            rules: {
+                first_name: {
+                    required: true
+                },
+                last_name: {
+                    required: true
+                },
+                email: {
+                    required: true,
+                    email: true
+                },
+                phone: {
+                    required: true,
+                    digits: true,
+                    range: [7, 14]
+                }
+            }
+            
+        });
     });
-});
-</script>
+    </script>
+
+    <script>
+    $(document).ready(function() {
+        $('#right-menu').sidr({
+            name: 'sidr-right',
+            side: 'right',
+            source: '.sidr'
+        });
+    });
+    </script>
+
+    <script>
+    // variable to hold request
+    var request;
+    // bind to the submit event of our form
+    $(".purchase_form").submit(function(event) {
+        // abort any pending request
+        if (request) {
+            request.abort();
+        }
+        // setup some local variables
+        var $form = $(this);
+        // let's select and cache all the fields
+        var $inputs = $form.find("input, select, button, textarea");
+        // serialize the data in the form
+        var serializedData = $form.serialize();
+
+        // let's disable the inputs for the duration of the ajax request
+        // Note: we disable elements AFTER the form data has been serialized.
+        // Disabled form elements will not be serialized.
+        $inputs.prop("disabled", true);
+
+        // fire off the request to /form.php
+        request = $.ajax({
+            url: "/digiwearable/purchase.php",
+            type: "post",
+            data: serializedData
+        });
+
+        // callback handler that will be called on success
+        request.done(function(response, textStatus, jqXHR) {
+            // log a message to the console
+            console.log("Hooray, it worked!");
+        });
+
+        // callback handler that will be called on failure
+        request.fail(function(jqXHR, textStatus, errorThrown) {
+            // log the error to the console
+            console.error(
+                "The following error occured: " +
+                textStatus, errorThrown
+            );
+        });
+
+        // callback handler that will be called regardless
+        // if the request failed or succeeded
+        request.always(function() {
+            // reenable the inputs
+            $inputs.prop("disabled", false);
+        });
+
+        // prevent default posting of form
+        event.preventDefault();
+    });
+    </script>
+
 </body>
 
 </html>
