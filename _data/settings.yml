@@ -39,8 +39,8 @@ sub_header_nav_links:
 
 footer_product:
 - {name: مایکروسافت سرفیس , url: 'http://mysurface.ir', src: 'assets/img/surface_symbol.png'}
-- {name: فروشگاه اینترنتی تاپ سان, url: 'http://topsun.ir', src: 'assets/img/topsun.png'}
-- {name: خدمات گارانتی امتداد پارسه, url: 'http://eparseh.com', src: 'assets/img/epparseh_logo.png'}
+- {name: فروشگاه اینترنتی تاپ سان, url: 'http://topsun.ir', src: 'assets/img/topsun_logo.png'}
+- {name: خدمات گارانتی امتداد پارسه, url: 'http://eparseh.com', src: 'assets/img/epaarseh_logo.png'}
 
 footer_weblog:
 - {name: وبلاگ تخصصی سرفیس, url: 'http://mysurface.ir/blog'}
