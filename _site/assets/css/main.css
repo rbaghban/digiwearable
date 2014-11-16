@@ -903,6 +903,9 @@ body {
   color: white;
   font-family: "IRAN";
   direction: rtl; }
+  @media screen and (max-width: 440px) {
+    #footer {
+      height: 1200px; } }
   #footer .footer_container {
     max-width: 68em;
     margin-left: auto;
@@ -929,6 +932,18 @@ body {
     #footer .footer_container .about_us {
       padding-right: 10px;
       padding-left: 10px; }
+      @media screen and (max-width: 440px) {
+        #footer .footer_container .about_us {
+          float: left;
+          display: block;
+          margin-right: 1.88679%;
+          width: 66.03774%;
+          margin-left: 16.98113%;
+          height: 400px; }
+          #footer .footer_container .about_us:last-child {
+            margin-right: 0; }
+          #footer .footer_container .about_us p {
+            text-align: center; } }
       #footer .footer_container .about_us h2 {
         text-align: center;
         width: 80%;
@@ -943,8 +958,19 @@ body {
         line-height: 26px;
         width: 90%; }
     #footer .footer_container .weblogs {
-      padding-right: 10px;
       padding-left: 10px; }
+      @media screen and (max-width: 440px) {
+        #footer .footer_container .weblogs {
+          float: left;
+          display: block;
+          margin-right: 1.88679%;
+          width: 66.03774%;
+          margin-left: 16.98113%;
+          height: 400px; }
+          #footer .footer_container .weblogs:last-child {
+            margin-right: 0; }
+          #footer .footer_container .weblogs p {
+            text-align: center; } }
       #footer .footer_container .weblogs h2 {
         text-align: center;
         width: 80%;
@@ -967,6 +993,16 @@ body {
     #footer .footer_container .other_products {
       padding-right: 10px;
       padding-left: 10px; }
+      @media screen and (max-width: 440px) {
+        #footer .footer_container .other_products {
+          float: left;
+          display: block;
+          margin-right: 1.88679%;
+          width: 66.03774%;
+          margin-left: 16.98113%;
+          height: 400px; }
+          #footer .footer_container .other_products:last-child {
+            margin-right: 0; } }
       #footer .footer_container .other_products h2 {
         text-align: center;
         width: 80%;
