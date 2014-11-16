@@ -934,13 +934,14 @@ body {
         width: 80%;
         color: white;
         border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-        font-size: 22px;
+        font-size: 20px;
         padding-bottom: 10px;
         margin: 20px 0; }
       #footer .footer_container .about_us p {
         color: white;
-        font-size: 16px;
-        line-height: 32px; }
+        font-size: 13px;
+        line-height: 26px;
+        width: 90%; }
     #footer .footer_container .weblogs {
       padding-right: 10px;
       padding-left: 10px; }
@@ -949,18 +950,19 @@ body {
         width: 80%;
         color: white;
         border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-        font-size: 22px;
+        font-size: 20px;
         padding-bottom: 10px;
         margin: 20px 0; }
       #footer .footer_container .weblogs ul {
         list-style: none;
         padding: 0; }
         #footer .footer_container .weblogs ul li {
+          margin: 14px auto;
           text-decoration: none; }
           #footer .footer_container .weblogs ul li a {
             color: white;
             display: block;
-            line-height: 32px;
+            line-height: 35px;
             font-size: 16px; }
     #footer .footer_container .other_products {
       padding-right: 10px;
@@ -970,7 +972,7 @@ body {
         width: 80%;
         color: white;
         border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-        font-size: 22px;
+        font-size: 20px;
         padding-bottom: 10px;
         margin: 20px 0; }
       #footer .footer_container .other_products .products {
