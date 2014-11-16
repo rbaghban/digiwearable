@@ -7,7 +7,8 @@
             <ul class="weblogs">
 
                 {% for item in site.data.settings.footer_weblog %}
-	                <li><a href="{{ item.url }}" target="_blank">{{ item.name }}</a></li>
+                <li><a href="{{ item.url }}" target="_blank">{{ item.name }}</a>
+                </li>
                 {% endfor %}
 
             </ul>
@@ -17,7 +18,14 @@
             <h2>سایر محصولات</h2>
             <ul class="products">
                 {% for item in site.data.settings.footer_product %}
-	                <li><a href="{{ item.url }}" target="_blank">{{ item.name }}</a></li>
+                <li>
+                    <img src="{{ item.src }}" alt="">
+
+                    <a href="{{ item.url }}" target="_blank">
+	                		{{ item.name }}
+	               	</a>
+                </li>
+
                 {% endfor %}
             </ul>
         </div>
