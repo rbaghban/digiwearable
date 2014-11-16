@@ -1039,9 +1039,12 @@ body {
       padding-top: 1em;
       color: #ebebeb; }
     .map_container .contact_header .contact_wrapper {
+      vertical-align: middle;
       color: white;
       font-family: "IRAN";
       text-align: center; }
+      .map_container .contact_header .contact_wrapper p {
+        margin: 10px 0; }
       .map_container .contact_header .contact_wrapper h2 {
         color: white;
         text-align: center;
@@ -1054,6 +1057,8 @@ body {
       .map_container .contact_header .contact_wrapper .address {
         font-size: 16px;
         line-height: 24px; }
+      .map_container .contact_header .contact_wrapper .email_address a {
+        color: #5c92fa; }
   .map_container #map_canvas {
     width: 100%;
     height: 350px;
