@@ -899,7 +899,10 @@ body {
 #footer {
   height: 400px;
   width: 100%;
-  background-color: #222c30; }
+  background-color: #222c30;
+  color: white;
+  font-family: "IRAN";
+  direction: rtl; }
   #footer .footer_container {
     max-width: 68em;
     margin-left: auto;
@@ -917,7 +920,8 @@ body {
       width: 32.71028%;
       height: 350px;
       margin-top: 25px;
-      margin-bottom: 25px; }
+      margin-bottom: 25px;
+      color: white; }
       #footer .footer_container .first_col:last-child,
       #footer .footer_container .second_col:last-child,
       #footer .footer_container .third_col:last-child {
@@ -926,8 +930,27 @@ body {
       background-color: red; }
     #footer .footer_container .second_col {
       background-color: blue; }
-    #footer .footer_container .third_col {
-      background-color: green; }
+    #footer .footer_container .other_products {
+      padding-right: 10px;
+      padding-left: 10px; }
+      #footer .footer_container .other_products h2 {
+        text-align: center;
+        width: 80%;
+        color: white;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        font-size: 22px;
+        padding-bottom: 10px;
+        margin: 20px 0; }
+      #footer .footer_container .other_products .products {
+        list-style: none;
+        padding: 0; }
+        #footer .footer_container .other_products .products li {
+          text-decoration: none; }
+          #footer .footer_container .other_products .products li a {
+            color: white;
+            display: block;
+            line-height: 32px;
+            font-size: 16px; }
 
 #overlay {
   opacity: 0;

@@ -1,8 +1,15 @@
 <div id="footer">
-	<div class="footer_container">
-		<div class="footer_header"></div>
-		<div class="first_col"></div>
-		<div class="second_col"></div>
-		<div class="third_col"></div>
-	</div>
+    <div class="footer_container">
+        <div class="footer_header"></div>
+        <div class="first_col about_us"></div>
+        <div class="second_col weblogs"></div>
+        <div class="third_col other_products">
+            <h2>سایر محصولات</h2>
+            <ul class="products">
+                {% for item in site.data.settings.footer_product %}
+               		 <li><a href="{{ item.url }}">{{ item.name }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
 </div>

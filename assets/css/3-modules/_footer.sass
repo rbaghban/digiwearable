@@ -1,6 +1,9 @@
 #footer
 	+size(100% 400px)
 	background-color: #222c30
+	color: white
+	font-family: 'IRAN'
+	direction: rtl
 
 	.footer_container
 		@include outer-container
@@ -11,6 +14,7 @@
 			@include span-columns(4)
 			height: 350px
 			+margin(25px null 25px null)
+			color: white
 
 
 		.first_col
@@ -20,5 +24,29 @@
 			background-color: blue
 	
 		.third_col
-			background-color: green
 		
+		.other_products
+			padding-right: 10px
+			padding-left: 10px
+			h2
+				text-align: center
+				width: 80%
+				color: white
+				border-bottom: 1px solid rgba(255,255,255,0.3)
+				font-size: 22px
+				padding-bottom: 10px
+				margin: 20px 0
+			.products
+				list-style: none
+				padding: 0
+
+				li
+					
+					text-decoration: none
+					a
+						color: white
+						display: block
+						line-height: 32px
+						font-size: 16px
+
+
